@@ -1,0 +1,4 @@
+/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir
+/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/ft.dir

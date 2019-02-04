@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ablizniu/Documents/Push_swap/libft/libft.h
+unistd.h
+-
+limits.h
+-
+stdio.h
+-
+fcntl.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+inttypes.h
+-
+stdlib.h
+-
+
+/Users/ablizniu/Documents/Push_swap/operations.h
+
+/Users/ablizniu/Documents/Push_swap/push_swap.h
+libft/libft.h
+/Users/ablizniu/Documents/Push_swap/libft/libft.h
+operations.h
+/Users/ablizniu/Documents/Push_swap/operations.h
+
+/Users/ablizniu/Documents/Push_swap/push_swap/algorhythm.c
+../push_swap.h
+/Users/ablizniu/Documents/Push_swap/push_swap.h
+
