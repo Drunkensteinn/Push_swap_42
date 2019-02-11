@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 17:47:41 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/04 21:26:28 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/11 16:23:20 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,12 @@
 #include "libft/libft.h"
 #include "operations.h"
 
-#define RANDOM_INDEX(x) (x * 0.2985)
+#define RANDOM_INDEX(x) (x * 0.3456)
 
 
-#define  ASCENDING(x,y)		(x <= y)
+#define MIN_STACK_LEN 3
+
+#define	ASCENDING(x,y)		(x <= y)
 
 typedef struct			s_stack
 {
@@ -30,7 +32,9 @@ typedef struct			s_stack
 }						t_stack;
 
 
-int32_t					*init_array(int32_t len, char **data);
+int32_t					*init_array(int32_t len, t_stack *stack);
+
+int32_t *init_map(size_t len, size_t *len_map);
 
 void					print_op(const char *op);
 
@@ -55,13 +59,22 @@ size_t					stack_length(t_stack *stack);
 
 void					print_array(int32_t *array, size_t	len);
 
-int32_t					rec_search(int32_t *start, int32_t *end,size_t len, int32_t sup_elem);
+void					print_stack(t_stack *stack);
+
+void					quick_sort(int32_t *array, int32_t len_l, int32_t len_r);
+
+void 					swap(int *a, int *b);
+
+size_t					dilimeter(size_t len);
+
+void					pre_sorting(t_stack **a, t_stack **b, int32_t *map, int32_t len);
 
 int32_t					search_mediana(int32_t *array, size_t len);
 
-int						*ft_arrdup(const int *dst, size_t len);
+void					algorithm_init(t_stack *a, t_stack *b, int32_t argc);
 
-void					algorhythm(int32_t *array, size_t len);
+t_bool					condition_for_push(t_stack *stack, int32_t value);
 
+t_bool					condition_for_sort(t_stack *stack);
 
 #endif

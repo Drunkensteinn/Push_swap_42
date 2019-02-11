@@ -46,12 +46,11 @@ void execute_operations(t_stack **stack_a, t_stack **stack_b)
 {
 	char *op;
 
-	(*stack_a)->head = true;
 	int fd = open("../test.txt", O_RDONLY);
 	while(get_next_line(fd, &op))
 	{
 		if (op && *op)
-			((void (*)(t_stack **, t_stack **)) get_func(op))(stack_a, stack_b);
+			((void (*)(t_stack **, t_stack **))get_func(op))(stack_a, stack_b);
 		ft_strdel(&op);
 	}
 }

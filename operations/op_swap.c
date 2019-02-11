@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 16:19:42 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/01/30 16:56:28 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/10 17:03:44 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,16 +29,19 @@ void	op_sa(t_stack **a, t_stack **b)
 {
 	(void)b;
 	op_swap(a);
+	print_op(SA);
 }
 
 void	op_sb(t_stack **a, t_stack **b)
 {
 	(void)a;
 	op_swap(b);
+	print_op(SB);
 }
 
 void	op_ss(t_stack **a, t_stack **b)
 {
 	op_swap(a);
 	op_swap(b);
+	print_op(SS);
 }

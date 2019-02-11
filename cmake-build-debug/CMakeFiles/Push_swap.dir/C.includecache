@@ -28,29 +28,19 @@ stdlib.h
 
 /Users/ablizniu/Documents/Push_swap/operations.h
 
+/Users/ablizniu/Documents/Push_swap/operations/op.h
+../push_swap.h
+/Users/ablizniu/Documents/Push_swap/push_swap.h
+
 /Users/ablizniu/Documents/Push_swap/push_swap.h
 libft/libft.h
 /Users/ablizniu/Documents/Push_swap/libft/libft.h
 operations.h
 /Users/ablizniu/Documents/Push_swap/operations.h
 
-/Users/ablizniu/Documents/Push_swap/push_swap/algorhythm.c
+/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c
 ../push_swap.h
 /Users/ablizniu/Documents/Push_swap/push_swap.h
-
-/Users/ablizniu/Documents/Push_swap/push_swap/init.c
-../push_swap.h
-/Users/ablizniu/Documents/Push_swap/push_swap.h
-
-/Users/ablizniu/Documents/Push_swap/push_swap/main.c
-../push_swap.h
-/Users/ablizniu/Documents/Push_swap/push_swap.h
-
-/Users/ablizniu/Documents/Push_swap/push_swap/print_op.c
-../push_swap.h
-/Users/ablizniu/Documents/Push_swap/push_swap.h
-
-/Users/ablizniu/Documents/Push_swap/push_swap/utils.c
-../push_swap.h
-/Users/ablizniu/Documents/Push_swap/push_swap.h
+../operations/op.h
+/Users/ablizniu/Documents/Push_swap/operations/op.h
 

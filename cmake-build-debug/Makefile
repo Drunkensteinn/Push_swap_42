@@ -136,6 +136,87 @@ ft/fast:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/build
 .PHONY : ft/fast
 
+checker/init.o: checker/init.c.o
+
+.PHONY : checker/init.o
+
+# target to build an object file
+checker/init.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/init.c.o
+.PHONY : checker/init.c.o
+
+checker/init.i: checker/init.c.i
+
+.PHONY : checker/init.i
+
+# target to preprocess a source file
+checker/init.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/init.c.i
+.PHONY : checker/init.c.i
+
+checker/init.s: checker/init.c.s
+
+.PHONY : checker/init.s
+
+# target to generate assembly for a file
+checker/init.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/init.c.s
+.PHONY : checker/init.c.s
+
+checker/stack_controller.o: checker/stack_controller.c.o
+
+.PHONY : checker/stack_controller.o
+
+# target to build an object file
+checker/stack_controller.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/stack_controller.c.o
+.PHONY : checker/stack_controller.c.o
+
+checker/stack_controller.i: checker/stack_controller.c.i
+
+.PHONY : checker/stack_controller.i
+
+# target to preprocess a source file
+checker/stack_controller.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/stack_controller.c.i
+.PHONY : checker/stack_controller.c.i
+
+checker/stack_controller.s: checker/stack_controller.c.s
+
+.PHONY : checker/stack_controller.s
+
+# target to generate assembly for a file
+checker/stack_controller.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/stack_controller.c.s
+.PHONY : checker/stack_controller.c.s
+
+libft/ft_arrdup.o: libft/ft_arrdup.c.o
+
+.PHONY : libft/ft_arrdup.o
+
+# target to build an object file
+libft/ft_arrdup.c.o:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/ft_arrdup.c.o
+.PHONY : libft/ft_arrdup.c.o
+
+libft/ft_arrdup.i: libft/ft_arrdup.c.i
+
+.PHONY : libft/ft_arrdup.i
+
+# target to preprocess a source file
+libft/ft_arrdup.c.i:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/ft_arrdup.c.i
+.PHONY : libft/ft_arrdup.c.i
+
+libft/ft_arrdup.s: libft/ft_arrdup.c.s
+
+.PHONY : libft/ft_arrdup.s
+
+# target to generate assembly for a file
+libft/ft_arrdup.c.s:
+	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/ft_arrdup.c.s
+.PHONY : libft/ft_arrdup.c.s
+
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -1918,32 +1999,167 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-push_swap/algorhythm.o: push_swap/algorhythm.c.o
+operations/op_push.o: operations/op_push.c.o
 
-.PHONY : push_swap/algorhythm.o
+.PHONY : operations/op_push.o
 
 # target to build an object file
-push_swap/algorhythm.c.o:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorhythm.c.o
-.PHONY : push_swap/algorhythm.c.o
+operations/op_push.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_push.c.o
+.PHONY : operations/op_push.c.o
 
-push_swap/algorhythm.i: push_swap/algorhythm.c.i
+operations/op_push.i: operations/op_push.c.i
 
-.PHONY : push_swap/algorhythm.i
+.PHONY : operations/op_push.i
 
 # target to preprocess a source file
-push_swap/algorhythm.c.i:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorhythm.c.i
-.PHONY : push_swap/algorhythm.c.i
+operations/op_push.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_push.c.i
+.PHONY : operations/op_push.c.i
 
-push_swap/algorhythm.s: push_swap/algorhythm.c.s
+operations/op_push.s: operations/op_push.c.s
 
-.PHONY : push_swap/algorhythm.s
+.PHONY : operations/op_push.s
 
 # target to generate assembly for a file
-push_swap/algorhythm.c.s:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorhythm.c.s
-.PHONY : push_swap/algorhythm.c.s
+operations/op_push.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_push.c.s
+.PHONY : operations/op_push.c.s
+
+operations/op_reverse_rotate.o: operations/op_reverse_rotate.c.o
+
+.PHONY : operations/op_reverse_rotate.o
+
+# target to build an object file
+operations/op_reverse_rotate.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_reverse_rotate.c.o
+.PHONY : operations/op_reverse_rotate.c.o
+
+operations/op_reverse_rotate.i: operations/op_reverse_rotate.c.i
+
+.PHONY : operations/op_reverse_rotate.i
+
+# target to preprocess a source file
+operations/op_reverse_rotate.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_reverse_rotate.c.i
+.PHONY : operations/op_reverse_rotate.c.i
+
+operations/op_reverse_rotate.s: operations/op_reverse_rotate.c.s
+
+.PHONY : operations/op_reverse_rotate.s
+
+# target to generate assembly for a file
+operations/op_reverse_rotate.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_reverse_rotate.c.s
+.PHONY : operations/op_reverse_rotate.c.s
+
+operations/op_rotate.o: operations/op_rotate.c.o
+
+.PHONY : operations/op_rotate.o
+
+# target to build an object file
+operations/op_rotate.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_rotate.c.o
+.PHONY : operations/op_rotate.c.o
+
+operations/op_rotate.i: operations/op_rotate.c.i
+
+.PHONY : operations/op_rotate.i
+
+# target to preprocess a source file
+operations/op_rotate.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_rotate.c.i
+.PHONY : operations/op_rotate.c.i
+
+operations/op_rotate.s: operations/op_rotate.c.s
+
+.PHONY : operations/op_rotate.s
+
+# target to generate assembly for a file
+operations/op_rotate.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_rotate.c.s
+.PHONY : operations/op_rotate.c.s
+
+operations/op_swap.o: operations/op_swap.c.o
+
+.PHONY : operations/op_swap.o
+
+# target to build an object file
+operations/op_swap.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_swap.c.o
+.PHONY : operations/op_swap.c.o
+
+operations/op_swap.i: operations/op_swap.c.i
+
+.PHONY : operations/op_swap.i
+
+# target to preprocess a source file
+operations/op_swap.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_swap.c.i
+.PHONY : operations/op_swap.c.i
+
+operations/op_swap.s: operations/op_swap.c.s
+
+.PHONY : operations/op_swap.s
+
+# target to generate assembly for a file
+operations/op_swap.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_swap.c.s
+.PHONY : operations/op_swap.c.s
+
+operations/op_utils.o: operations/op_utils.c.o
+
+.PHONY : operations/op_utils.o
+
+# target to build an object file
+operations/op_utils.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_utils.c.o
+.PHONY : operations/op_utils.c.o
+
+operations/op_utils.i: operations/op_utils.c.i
+
+.PHONY : operations/op_utils.i
+
+# target to preprocess a source file
+operations/op_utils.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_utils.c.i
+.PHONY : operations/op_utils.c.i
+
+operations/op_utils.s: operations/op_utils.c.s
+
+.PHONY : operations/op_utils.s
+
+# target to generate assembly for a file
+operations/op_utils.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_utils.c.s
+.PHONY : operations/op_utils.c.s
+
+push_swap/algorithm.o: push_swap/algorithm.c.o
+
+.PHONY : push_swap/algorithm.o
+
+# target to build an object file
+push_swap/algorithm.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o
+.PHONY : push_swap/algorithm.c.o
+
+push_swap/algorithm.i: push_swap/algorithm.c.i
+
+.PHONY : push_swap/algorithm.i
+
+# target to preprocess a source file
+push_swap/algorithm.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.i
+.PHONY : push_swap/algorithm.c.i
+
+push_swap/algorithm.s: push_swap/algorithm.c.s
+
+.PHONY : push_swap/algorithm.s
+
+# target to generate assembly for a file
+push_swap/algorithm.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.s
+.PHONY : push_swap/algorithm.c.s
 
 push_swap/init.o: push_swap/init.c.o
 
@@ -1998,6 +2214,33 @@ push_swap/main.s: push_swap/main.c.s
 push_swap/main.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/main.c.s
 .PHONY : push_swap/main.c.s
+
+push_swap/preparation.o: push_swap/preparation.c.o
+
+.PHONY : push_swap/preparation.o
+
+# target to build an object file
+push_swap/preparation.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/preparation.c.o
+.PHONY : push_swap/preparation.c.o
+
+push_swap/preparation.i: push_swap/preparation.c.i
+
+.PHONY : push_swap/preparation.i
+
+# target to preprocess a source file
+push_swap/preparation.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/preparation.c.i
+.PHONY : push_swap/preparation.c.i
+
+push_swap/preparation.s: push_swap/preparation.c.s
+
+.PHONY : push_swap/preparation.s
+
+# target to generate assembly for a file
+push_swap/preparation.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/preparation.c.s
+.PHONY : push_swap/preparation.c.s
 
 push_swap/print_op.o: push_swap/print_op.c.o
 
@@ -2063,6 +2306,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... Push_swap"
 	@echo "... ft"
+	@echo "... checker/init.o"
+	@echo "... checker/init.i"
+	@echo "... checker/init.s"
+	@echo "... checker/stack_controller.o"
+	@echo "... checker/stack_controller.i"
+	@echo "... checker/stack_controller.s"
+	@echo "... libft/ft_arrdup.o"
+	@echo "... libft/ft_arrdup.i"
+	@echo "... libft/ft_arrdup.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2261,15 +2513,33 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... push_swap/algorhythm.o"
-	@echo "... push_swap/algorhythm.i"
-	@echo "... push_swap/algorhythm.s"
+	@echo "... operations/op_push.o"
+	@echo "... operations/op_push.i"
+	@echo "... operations/op_push.s"
+	@echo "... operations/op_reverse_rotate.o"
+	@echo "... operations/op_reverse_rotate.i"
+	@echo "... operations/op_reverse_rotate.s"
+	@echo "... operations/op_rotate.o"
+	@echo "... operations/op_rotate.i"
+	@echo "... operations/op_rotate.s"
+	@echo "... operations/op_swap.o"
+	@echo "... operations/op_swap.i"
+	@echo "... operations/op_swap.s"
+	@echo "... operations/op_utils.o"
+	@echo "... operations/op_utils.i"
+	@echo "... operations/op_utils.s"
+	@echo "... push_swap/algorithm.o"
+	@echo "... push_swap/algorithm.i"
+	@echo "... push_swap/algorithm.s"
 	@echo "... push_swap/init.o"
 	@echo "... push_swap/init.i"
 	@echo "... push_swap/init.s"
 	@echo "... push_swap/main.o"
 	@echo "... push_swap/main.i"
 	@echo "... push_swap/main.s"
+	@echo "... push_swap/preparation.o"
+	@echo "... push_swap/preparation.i"
+	@echo "... push_swap/preparation.s"
 	@echo "... push_swap/print_op.o"
 	@echo "... push_swap/print_op.i"
 	@echo "... push_swap/print_op.s"

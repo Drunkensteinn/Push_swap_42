@@ -26,16 +26,19 @@ void	op_rra(t_stack **a, t_stack **b)
 {
 	(void)b;
 	reverse_rotate(a);
+	print_op(RRA);
 }
 
 void	op_rrb(t_stack **a, t_stack **b)
 {
 	(void)a;
 	reverse_rotate(b);
+	print_op(RRB);
 }
 
 void	op_rrr(t_stack **a, t_stack **b)
 {
 	reverse_rotate(a);
 	reverse_rotate(b);
+	print_op(RRR);
 }

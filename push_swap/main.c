@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 23:01:16 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/03 20:07:38 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/08 13:00:53 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,14 +28,11 @@ t_bool		array_validation(int32_t len, char **array)
 
 int main(int32_t argc, char **argv)
 {
-	int32_t		*operational_array;
-
 	if (argc >= 2)
 	{
 		if (!array_validation(argc - 1, &argv[1]))
 			print_error();
-		operational_array = init_array(argc - 1, &argv[1]);
-		algorhythm(operational_array, (size_t)(argc - 1));
+		algorithm_init(init_the_stack(argc - 1, &argv[1]), NULL, argc - 1);
 	}
 	else
 		print_error();

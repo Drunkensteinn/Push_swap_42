@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ablizniu/Documents/Push_swap/operations"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -65,6 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ablizniu/Documents/Push_swap/operations"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -86,6 +88,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ablizniu/Documents/Push_swap/operations"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -107,6 +110,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ablizniu/Documents/Push_swap/operations"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -122,6 +126,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/checker/init.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/checker/stack_controller.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/libft/ft_arrdup.c">
+			<Option target="ft"/>
+		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/libft/ft_atoi.c">
 			<Option target="ft"/>
 		</Unit>
@@ -320,13 +333,31 @@
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/libft/get_next_line.c">
 			<Option target="ft"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorhythm.c">
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/operations/op_push.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/operations/op_reverse_rotate.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/operations/op_rotate.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/operations/op_swap.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/operations/op_utils.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/init.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/main.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/preparation.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/print_op.c">

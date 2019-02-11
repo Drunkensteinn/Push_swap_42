@@ -55,5 +55,6 @@ t_stack			*init_the_stack(int32_t num, char **value)
 	}
 	temp->next = stack;
 	stack->prev = temp;
+	stack->head = true;
 	return  (stack);
 }

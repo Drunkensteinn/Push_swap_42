@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/ablizniu/Documents/Push_swap/libft/ft_arrdup.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_arrdup.c.o"
   "/Users/ablizniu/Documents/Push_swap/libft/ft_atoi.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_atoi.c.o"
   "/Users/ablizniu/Documents/Push_swap/libft/ft_bzero.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_bzero.c.o"
   "/Users/ablizniu/Documents/Push_swap/libft/ft_doop.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/ft.dir/libft/ft_doop.c.o"
@@ -75,6 +76,7 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../operations"
   )
 
 # Targets to which this target links.

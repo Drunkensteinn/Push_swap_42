@@ -73,6 +73,7 @@ typedef struct		s_arr
 }					t_arr;
 
 int					ft_isspace(int c);
+int32_t				*ft_arrdup(const int32_t *dst, size_t len);
 char				**ft_neo_its_matrix(int column, int raw);
 t_bool				ft_isint(const char *str, t_bool strict);
 void				ft_swap_int(int *a, int *b);

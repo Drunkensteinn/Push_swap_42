@@ -15,7 +15,6 @@
 
 #include "../push_swap.h"
 
-
 void		op_sa(t_stack **a, t_stack **b);
 
 void		op_sb(t_stack **a, t_stack **b);
@@ -45,8 +44,5 @@ void		op_rrr(t_stack **a, t_stack **b);
 void		push(t_stack **stack, t_stack *elem, t_bool is_head);
 
 t_stack		*pop(t_stack **stack);
-
-size_t		stack_length(t_stack *stack);
-
 
 #endif
