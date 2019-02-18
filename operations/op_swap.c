@@ -22,6 +22,7 @@ static void op_swap(t_stack **stack)
 	{
 		next = pop(stack);
 		push(&(*stack)->next, next, false);
+		(*stack)->head = true;
 	}
 }
 

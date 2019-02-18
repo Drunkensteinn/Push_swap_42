@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 17:47:41 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/11 16:23:20 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/14 13:15:25 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ size_t					stack_length(t_stack *stack);
 
 void					print_array(int32_t *array, size_t	len);
 
-void					print_stack(t_stack *stack);
+void					print_stack(t_stack *stack, size_t size);
 
 void					quick_sort(int32_t *array, int32_t len_l, int32_t len_r);
 

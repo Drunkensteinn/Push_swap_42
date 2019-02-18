@@ -29,7 +29,7 @@
 # define FT_MAX(A, B)	(((A) > (B)) ? (A) : (B))
 
 # define FT_ABS(X)		(((X) < 0) ? (-(X)) : (X))
-# define FT_POW(x)		(x * x)
+# define FT_POW(X)		(X * X)
 
 # define FT_ULONG_MAX	((unsigned long)(~0L))
 # define FT_LONG_MAX	((long)(FT_ULONG_MAX >> 1))
@@ -43,7 +43,7 @@
 # define FT_CHAR_MAX	((char)(FT_UCHAR_MAX >> 1))
 # define FT_CHAR_MIN	((char)(~FT_CHAR_MAX))
 
-# define INDEX(x)		((x) - 1)
+# define INDEX(X)		((X) - 1)
 
 typedef enum
 {
