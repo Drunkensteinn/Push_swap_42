@@ -6,191 +6,191 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/10 16:56:12 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/16 22:13:19 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/21 21:39:27 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../push_swap.h"
 #include "../operations/op.h"
 
-inline t_bool	condition_for_push(t_stack *stack, int32_t value)
+t_stack *search_elem(t_stack *stack, size_t len)
 {
+	size_t	i;
 	t_stack *iterator;
 
+	i = 0;
 	iterator = stack;
-	iterator = iterator->next;
-	while (iterator)
+	while (len > i)
 	{
-		if (iterator->value < value)
-			return (false);
-		if (iterator->head == true)
-			break ;
-		iterator = iterator->next;
+		iterator = iterator->prev;
+		i++;
 	}
-	return (true);
+	return (iterator);
 }
 
-void		pushing_by_mediana(t_stack **a, t_stack **b, int32_t mediana,
-							   int32_t *elem)
+int32_t find_mediana_for_top_and_bot(t_stack **b, const size_t *len_bot, const size_t *len_top)
 {
-	while (!(condition_for_push(*a, mediana)))
-	{
-		if ((*a)->value <= mediana)
-		{
-			op_pb(a, b);
-			(*elem)++;
-		}
-		else
-			op_ra(a, b);
-	}
-}
-
-inline t_bool	condition_for_sort(t_stack *stack)
-{
-	t_stack *iterator;
-
-	iterator = stack;
-	while (iterator->next->head != true)
-	{
-		if (iterator->value > iterator->next->value)
-			return (false);
-		iterator = iterator->next;
-	}
-	return (true);
-}
-
-void	pre_sorting(t_stack **a, t_stack **b, int32_t *map ,int32_t len)
-{
-	int32_t		mediana;
-	size_t		length;
-	int32_t		elem;
-
-	elem = 0;
-	mediana = search_mediana(init_array((int32_t)len, *a), (size_t)(len));
-	pushing_by_mediana(a, b, mediana, &elem);
-	length = stack_length(*a);
-	*map = elem;
-	if (length > MIN_STACK_LEN)
-		pre_sorting(a, b, map + 1, (int32_t)length);
-}
-
-int32_t find_mediana_for_block(int32_t *block, int32_t stack_len)
-{
-	int32_t mediana;
-
-	mediana = 0;
-	if (stack_len && stack_len >= MIN_STACK_LEN)
-	{
-		quick_sort(block, 0, (int32_t)(stack_len - 1));
-		mediana = block[(int32_t)(stack_len - MIN_STACK_LEN)];
-	}
-	else if (stack_len == 1)
-		return (*block);
-	return (mediana);
-}
-
-void sort(t_stack **stack_a, t_bool is_asscending)//убрать потом
-{
-	while(!condition_for_sort(*stack_a))
-	{
-		if ((*stack_a)->value > (*stack_a)->next->value)
-			op_sa(stack_a, NULL);
-		else if ((*stack_a)->next->value > (*stack_a)->next->next->value)
-		{
-			op_ra(stack_a, NULL);
-			op_sa(stack_a, NULL);
-			op_rra(stack_a, NULL);
-		}
-	}
-}
-
-
-void	sort_top_of_a(t_stack **a, t_stack **b, int32_t *len)
-{
-	while (*len)
-	{
-		op_pa(a, b);
-		(*len)--;
-	}
-	sort(a, true);
-}
-
-void	working_with_the_understack(t_stack **a, t_stack **b, int32_t *len_under_stack, int32_t *block_len)
-{
+	int32_t *array;
 	t_stack *iterator;
 	size_t	i;
+
+	i = 0;
+	iterator = search_elem(*b, *len_bot);
+	array = init_array((int32_t)(*len_bot + *len_top), *b);
+	while (i < *len_bot)
+	{
+		array[i + *len_top] = iterator->value;
+		iterator = iterator->next;
+		i++;
+	}
+	return (find_mediana_for_block(array, (int32_t)(*len_bot + *len_top)));
+}
+
+t_bool len_or_top(t_stack **b, size_t len_top, size_t len_bot, int32_t mediana)
+{
+	t_stack *top;
+	t_stack *bot;
+	size_t 	counter_top;
+	size_t 	counter_bot;
+
+	counter_bot = 0;
+	counter_top = 0;
+	bot = search_elem(*b, (size_t)len_bot);
+	top = *b;
+	while (len_top)
+	{
+		if (top->value >= mediana)
+			counter_top++;
+		top = top->next;
+		len_top--;
+	}
+	while (len_bot)
+	{
+		if (bot->value >= mediana)
+			counter_bot++;
+		bot = bot->next;
+		len_bot--;
+	}
+	return (counter_top > counter_bot ? (2) : (1));
+}
+
+void	working_with_the_understack(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top)
+{
 	int32_t under_stack_mediana;
 	size_t	pushed;
+	int32_t	pos;
 
 	pushed = 0;
-	while(*len_under_stack)
+	pos = 0;
+	if (*len_bot < MIN_STACK_LEN && *len_top < MIN_STACK_LEN)
 	{
-		if (*len_under_stack < MIN_STACK_LEN)
+		while (*len_bot)
 		{
 			op_rrb(a, b);
 			op_pa(a, b);
-			(*len_under_stack)--;
-			(*block_len)--;
+			(*len_bot)--;
 		}
-		else
+	}
+	else
+	{
+		under_stack_mediana = find_mediana_for_top_and_bot(b, len_bot, len_top);
+		while (pushed < MIN_STACK_LEN)
 		{
-			i = 0;
-			iterator = *b;
-			while (*len_under_stack > i)
+			if ((*len_bot || *len_top) || (*len_bot && *len_top))
+				pos = len_or_top(b, *len_top, *len_bot, under_stack_mediana);
+			if (*len_top && pos == TOP)
 			{
-				iterator = iterator->prev;
-				i++;
-			}
-			under_stack_mediana = find_mediana_for_block(init_array(*len_under_stack, iterator), *len_under_stack);
-			while (pushed < MIN_STACK_LEN)
-			{
-				while ((*b)->value < under_stack_mediana)
+				while (*b && *len_top && pushed < MIN_STACK_LEN)
 				{
-					op_rrb(NULL, b);
-					(*len_under_stack)--;
+					if ((*b)->value >= under_stack_mediana)
+					{
+						op_pa(a,b);
+						pushed++;
+					}
+					else
+					{
+						op_rb(NULL, b);
+						(*len_bot)++;
+					}
+					(*len_top)--;
 				}
-				op_pa(a, b);
-				(*block_len)--;
-				pushed++;
+			}
+			if (*len_bot && pos == BOT)
+			{
+				while (*b && *len_bot && pushed < MIN_STACK_LEN)
+				{
+					if ((*b)->prev->value >= under_stack_mediana)
+					{
+						op_rrb(NULL, b);
+						op_pa(a, b);
+						pushed++;
+					}
+					else
+					{
+						op_rrb(NULL, b);
+						(*len_top)++;
+					}
+					(*len_bot)--;
+				}
 			}
 		}
 	}
 	sort(a, false);
+	if (*len_bot >= MIN_STACK_LEN || *len_top >= MIN_STACK_LEN)
+		working_with_the_understack(a, b, len_bot, len_top);
 }
 
-//TODO u need to search mediana from both sides - top and end of the stack - economy of operations and complete work of algo
-
-void	sort_the_b_blocks(t_stack **a, t_stack **b, int32_t *len)
+void	main_sort_algorithm(t_stack **a, t_stack **b, int32_t *number_of_elems)
 {
-	int32_t *block;
-	int32_t iterator;
-	int32_t mediana;
-	int32_t under_stack;
+	size_t	len_of_top;
+	size_t	len_of_bot;
+	size_t	iterator;
+	int32_t	mediana;
 
 	iterator = 0;
-	under_stack = 0;
-	block = init_array(*len, *b);
-	mediana = find_mediana_for_block(block, *len);
+	len_of_bot = 0;
+	len_of_top = (size_t)*number_of_elems;
+	mediana = find_mediana_for_block(init_array(*number_of_elems, *b), *number_of_elems);
 	while (*b && iterator < MIN_STACK_LEN)
 	{
 		if ((*b)->value >= mediana)
 		{
 			op_pa(a, b);
 			iterator++;
-			(*len)--;
+			len_of_top--;
+			(*number_of_elems)--;
 		}
 		else
 		{
 			op_rb(a, b);
-			under_stack++;
+			len_of_top--;
+			len_of_bot++;
 		}
 	}
 	sort(a, true);
-	working_with_the_understack(a, b, &under_stack, len);
-	ft_memdel((void *) &block);
-	if (*len > MIN_STACK_LEN)
-		sort_the_b_blocks(a, b, len);
+	if (len_of_bot)
+		working_with_the_understack(a, b, &len_of_bot, &len_of_top);
+	if (len_of_bot < MIN_STACK_LEN || len_of_top < MIN_STACK_LEN)
+		push_top_and_bot(a, b, &len_of_bot, &len_of_top);
+	*number_of_elems = (int32_t)(len_of_bot + len_of_top);
+	if (*number_of_elems > MIN_STACK_LEN)
+		main_sort_algorithm(a, b, number_of_elems);
+}
 
+void	push_top_and_bot(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top)
+{
+	while (*len_bot)
+	{
+		op_rrb(NULL, b);
+		op_pa(a, b);
+		(*len_bot)--;
+	}
+	while (*len_top)
+	{
+		op_pa(a, b);
+		(*len_top)--;
+	}
+	sort(a, true);
 }
 
 void	algorithm(t_stack **a, t_stack **b, int32_t *stack_map, size_t pos)
@@ -198,9 +198,9 @@ void	algorithm(t_stack **a, t_stack **b, int32_t *stack_map, size_t pos)
 	while (stack_map[pos])
 	{
 		if (stack_map[pos] > MIN_STACK_LEN)
-			sort_the_b_blocks(a, b, &stack_map[pos]);
+			main_sort_algorithm(a, b, &stack_map[pos]);
 		else
-			sort_top_of_a(a,b,&stack_map[pos]);
+			sort_min_stack_len_and_push(a, b, &stack_map[pos]);
 	}
 }
 
@@ -225,5 +225,4 @@ void	algorithm_init(t_stack *a, t_stack *b, int32_t argc)
 	sort(&a, true);
 	algorithm_start(&a, &b, map, len_map);
 	print_stack(a, 100);
-	ft_putchar('\n');
 }

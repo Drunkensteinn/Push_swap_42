@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 17:47:41 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/14 13:15:25 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/18 15:11:46 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,9 @@
 #include "libft/libft.h"
 #include "operations.h"
 
-#define RANDOM_INDEX(x) (x * 0.3456)
-
-
 #define MIN_STACK_LEN 3
+#define	TOP 2
+#define BOT 1
 
 #define	ASCENDING(x,y)		(x <= y)
 
@@ -31,6 +30,15 @@ typedef struct			s_stack
 		struct s_stack	*next;
 }						t_stack;
 
+int32_t					find_mediana_for_block(int32_t *block, int32_t stack_len);
+
+void					sort(t_stack **stack_a, t_bool is_asscending);
+
+void					sort_min_stack_len_and_push(t_stack **a, t_stack **b, int32_t *len);
+
+void					pushing_by_mediana(t_stack **a, t_stack **b, int32_t mediana,
+						int32_t *elem);
+void	push_top_and_bot(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top);
 
 int32_t					*init_array(int32_t len, t_stack *stack);
 

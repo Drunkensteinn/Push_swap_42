@@ -14,17 +14,33 @@
   <component name="ChangeListManager">
     <list default="true" id="c30ea7c1-3143-4025-8c05-f78517a70945" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/init.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/init.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/stack_controller.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/stack_controller.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_push.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_push.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_reverse_rotate.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_reverse_rotate.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_rotate.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_rotate.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_swap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_swap.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_utils.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/init.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/init.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/utils.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Push_swap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operations/op_swap.c" beforeDir="false" afterPath="$PROJECT_DIR$/operations/op_swap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Push_swap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Push_swap.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/anal.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap/algorithm.c" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap/algorithm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/push_swap/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap/utils.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,41 +51,47 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67836255">
+    <splitter split-orientation="horizontal" split-proportion="0.603229">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/push_swap/algorithm.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="491">
-                  <caret line="129" column="25" lean-forward="true" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+                <state relative-caret-position="129">
+                  <caret line="98" column="65" lean-forward="true" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/operations/op_reverse_rotate.c">
+            <entry file="file://$PROJECT_DIR$/push_swap/init.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/push_swap/utils.c">
+            <entry file="file://$PROJECT_DIR$/push_swap/sort_utils.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+                <state relative-caret-position="816">
+                  <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+                  <folding>
+                    <element signature="e#892#917#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/push_swap/main.c">
+            <entry file="file://$PROJECT_DIR$/push_swap/conditions.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+                <state relative-caret-position="884">
+                  <caret line="52" selection-start-line="52" selection-end-line="52" />
+                  <folding>
+                    <element signature="e#892#917#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -123,11 +145,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/push_swap.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1037">
-                  <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
+                <state relative-caret-position="362">
+                  <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
                   <folding>
                     <element signature="e#933#957#0" expanded="true" />
                   </folding>
@@ -135,11 +157,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/operations/op.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="816">
-                  <caret line="48" selection-start-line="48" selection-end-line="48" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -198,19 +220,22 @@
         <option value="$PROJECT_DIR$/push_swap/init.c" />
         <option value="$PROJECT_DIR$/libft/libft.h" />
         <option value="$PROJECT_DIR$/operations/op_swap.c" />
-        <option value="$PROJECT_DIR$/push_swap.h" />
         <option value="$PROJECT_DIR$/anal.sh" />
         <option value="$PROJECT_DIR$/cmake-build-debug/log.txt" />
         <option value="$PROJECT_DIR$/push_swap/utils.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/push_swap/conditions.c" />
+        <option value="$PROJECT_DIR$/push_swap.h" />
+        <option value="$PROJECT_DIR$/push_swap/sort_utils.c" />
         <option value="$PROJECT_DIR$/push_swap/algorithm.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,7 +278,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -277,7 +302,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Push_swap">
-    <configuration name="Push_swap" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="70 86 37 56 34 65 27 78 93 80 62 68 36 100 71 23 1 63 95 39 42 31 44 47 55 58 40 73 3 79 25 83 17 69 52 54 8 18 85 5 2 89 91 76 14 35 20 99 60 96 81 28 59 77 46 16 48 45 75 6 90 12 21 84 74 10 30 67 7 41 13 29 82 53 4 64 15 50 11 72 33 51 61 22 38 19 66 94 43 87 9 24 97 88 98 92 26 57 49 32 " PASS_PARENT_ENVS_2="true" PROJECT_NAME="Push_swap" TARGET_NAME="Push_swap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Push_swap" RUN_TARGET_NAME="Push_swap">
+    <configuration name="Push_swap" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="63 22 57 73 25 26 37 67 75 19 95 27 80 53 64 54 70 3 40 35 13 16 78 84 5 6 18 74 79 17 93 41 30 24 66 99 82 91 45 65 87 92 59 86 69 60 83 55 58 51 34 100 39 32 96 42 9 90 8 11 72 38 61 97 49 77 28 12 33 44 43 23 31 20 89 98 81 14 52 71 48 46 62 36 29 7 76 68 88 47 1 2 94 56 85 10 50 21 4 15         " PASS_PARENT_ENVS_2="true" PROJECT_NAME="Push_swap" TARGET_NAME="Push_swap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Push_swap" RUN_TARGET_NAME="Push_swap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -343,12 +368,20 @@
       <workItem from="1550349553183" duration="1075000" />
       <workItem from="1550412267855" duration="3437000" />
       <workItem from="1550422988465" duration="1022000" />
-      <workItem from="1550492112527" duration="436000" />
+      <workItem from="1550492112527" duration="1162000" />
+      <workItem from="1550495111011" duration="8210000" />
+      <workItem from="1550511299860" duration="7573000" />
+      <workItem from="1550591784093" duration="11768000" />
+      <workItem from="1550667878203" duration="2348000" />
+      <workItem from="1550692266861" duration="2325000" />
+      <workItem from="1550751772325" duration="2955000" />
+      <workItem from="1550766995888" duration="1510000" />
+      <workItem from="1550776177846" duration="1695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189088000" />
+    <option name="totallyTimeSpent" value="228198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,24 +393,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="985" y="0" width="1575" height="1440" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12981082" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18943606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2976986" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997389" weight="0.34149963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22340426" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997389" weight="0.34124386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.2568671" />
-      <window_info anchor="bottom" id="Terminal" internal_type="SLIDING" order="9" type="SLIDING" weight="0.23904975" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.20867431" />
+      <window_info anchor="bottom" id="Terminal" internal_type="SLIDING" order="9" type="SLIDING" weight="0.30851063" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50026107" side_tool="true" weight="0.3036377" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,166 +502,351 @@
         </line-breakpoint>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>187</line>
-          <option name="timeStamp" value="1696" />
+          <line>77</line>
+          <option name="timeStamp" value="1807" />
         </line-breakpoint>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>189</line>
-          <option name="timeStamp" value="1699" />
+          <line>76</line>
+          <option name="timeStamp" value="1808" />
         </line-breakpoint>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>173</line>
-          <option name="timeStamp" value="1719" />
+          <line>79</line>
+          <option name="timeStamp" value="1844" />
         </line-breakpoint>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>179</line>
-          <option name="timeStamp" value="1721" />
+          <line>81</line>
+          <option name="timeStamp" value="2039" />
         </line-breakpoint>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>178</line>
-          <option name="timeStamp" value="1723" />
+          <line>82</line>
+          <option name="timeStamp" value="2040" />
         </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>177</line>
-          <option name="timeStamp" value="1724" />
+          <line>115</line>
+          <option name="timeStamp" value="2311" />
         </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>100</line>
+          <option name="timeStamp" value="2312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>104</line>
+          <option name="timeStamp" value="2314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>105</line>
+          <option name="timeStamp" value="2315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>109</line>
+          <option name="timeStamp" value="2316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>110</line>
+          <option name="timeStamp" value="2317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>121</line>
+          <option name="timeStamp" value="2318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>122</line>
+          <option name="timeStamp" value="2319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>123</line>
+          <option name="timeStamp" value="2320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>128</line>
+          <option name="timeStamp" value="2321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>127</line>
+          <option name="timeStamp" value="2322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>130</line>
+          <option name="timeStamp" value="2323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>117</line>
+          <option name="timeStamp" value="2325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>135</line>
+          <option name="timeStamp" value="2326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>136</line>
+          <option name="timeStamp" value="2335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>137</line>
+          <option name="timeStamp" value="2336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>133</line>
+          <option name="timeStamp" value="2337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>132</line>
+          <option name="timeStamp" value="2338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>131</line>
+          <option name="timeStamp" value="2339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>129</line>
+          <option name="timeStamp" value="2340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>93</line>
+          <option name="timeStamp" value="2341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>138</line>
+          <option name="timeStamp" value="2342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>139</line>
+          <option name="timeStamp" value="2350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>99</line>
+          <option name="timeStamp" value="2351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>98</line>
+          <option name="timeStamp" value="2352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>95</line>
+          <option name="timeStamp" value="2353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>120</line>
+          <option name="timeStamp" value="2355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
           <line>183</line>
-          <option name="timeStamp" value="1725" />
+          <option name="timeStamp" value="2372" />
         </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
           <line>184</line>
-          <option name="timeStamp" value="1727" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>185</line>
-          <option name="timeStamp" value="1729" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>181</line>
-          <option name="timeStamp" value="1730" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>180</line>
-          <option name="timeStamp" value="1731" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>182</line>
-          <option name="timeStamp" value="1732" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>176</line>
-          <option name="timeStamp" value="1733" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>172</line>
-          <option name="timeStamp" value="1739" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>174</line>
-          <option name="timeStamp" value="1740" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>175</line>
-          <option name="timeStamp" value="1741" />
+          <option name="timeStamp" value="2373" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>143</line>
-          <option name="timeStamp" value="1755" />
+          <line>189</line>
+          <option name="timeStamp" value="2374" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>145</line>
-          <option name="timeStamp" value="1756" />
+          <line>190</line>
+          <option name="timeStamp" value="2375" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>144</line>
-          <option name="timeStamp" value="1757" />
+          <line>97</line>
+          <option name="timeStamp" value="2376" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>146</line>
-          <option name="timeStamp" value="1760" />
+          <line>96</line>
+          <option name="timeStamp" value="2377" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>148</line>
-          <option name="timeStamp" value="1761" />
+          <line>101</line>
+          <option name="timeStamp" value="2378" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>147</line>
-          <option name="timeStamp" value="1762" />
+          <line>102</line>
+          <option name="timeStamp" value="2379" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>149</line>
-          <option name="timeStamp" value="1763" />
+          <line>103</line>
+          <option name="timeStamp" value="2380" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>150</line>
-          <option name="timeStamp" value="1764" />
+          <line>106</line>
+          <option name="timeStamp" value="2383" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>152</line>
-          <option name="timeStamp" value="1766" />
+          <line>107</line>
+          <option name="timeStamp" value="2384" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>151</line>
-          <option name="timeStamp" value="1767" />
+          <line>108</line>
+          <option name="timeStamp" value="2385" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>153</line>
-          <option name="timeStamp" value="1768" />
+          <line>111</line>
+          <option name="timeStamp" value="2386" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>154</line>
-          <option name="timeStamp" value="1769" />
+          <line>112</line>
+          <option name="timeStamp" value="2387" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>155</line>
-          <option name="timeStamp" value="1770" />
+          <line>113</line>
+          <option name="timeStamp" value="2388" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
-          <line>157</line>
-          <option name="timeStamp" value="1771" />
+          <line>114</line>
+          <option name="timeStamp" value="2389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>116</line>
+          <option name="timeStamp" value="2390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>118</line>
+          <option name="timeStamp" value="2391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>119</line>
+          <option name="timeStamp" value="2392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>126</line>
+          <option name="timeStamp" value="2393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>125</line>
+          <option name="timeStamp" value="2394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>124</line>
+          <option name="timeStamp" value="2395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap.h</url>
+          <line>27</line>
+          <option name="timeStamp" value="2396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/push_swap/algorithm.c</url>
+          <line>134</line>
+          <option name="timeStamp" value="2397" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="(*b)-&gt;value" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
-        <expression-string>iterator-&gt;value == 5</expression-string>
+        <expression-string>under_stack_mediana == 3</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>under_stack_mediana  &lt;= 48</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mediana == 48</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stack_map[pos] == 47</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(*a)-&gt;value &lt;= 3</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(*a)-&gt;value == 82</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(*a)-&gt;value &lt;= 79</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(*a)-.v</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(*a)-&gt;value == 79</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>(*b)-&gt;value</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stack_map[pos]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>pushed</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -669,25 +887,9 @@
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>p array[i]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>end - array</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libft/ft_strncmp.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strncpy.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_strnequ.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -836,32 +1038,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/push_swap/init.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" selection-start-line="41" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anal.sh" />
-    <entry file="file://$PROJECT_DIR$/operations/op_rotate.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="982">
           <caret line="1013" column="2" lean-forward="true" selection-start-line="1013" selection-start-column="2" selection-end-line="1013" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checker/operations_controller.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -886,10 +1067,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/operations/op_rotate.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/push_swap/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checker/operations_controller.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push_swap/init.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push_swap/sort_utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+          <folding>
+            <element signature="e#892#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push_swap/conditions.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#892#917#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,13 +1150,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/push_swap.h">
+    <entry file="file://$PROJECT_DIR$/operations/op.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
-          <folding>
-            <element signature="e#933#957#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -945,17 +1164,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operations/op.h">
+    <entry file="file://$PROJECT_DIR$/push_swap.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="362">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#933#957#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/push_swap/algorithm.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="129" column="25" lean-forward="true" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+        <state relative-caret-position="129">
+          <caret line="98" column="65" lean-forward="true" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
         </state>
       </provider>
     </entry>
