@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    analyzer.sh                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2017/07/26 18:08:32 by aroulin           #+#    #+#              #
+#    Updated: 2019/02/21 21:30:04 by ablizniu         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/bin/bash
 
 ##
@@ -36,8 +48,8 @@ echo "Analyse in progress ...\n";
 while [ $IND -gt 0 ];
 do
 	ARG=`ruby -e "puts ($NBRBOT..$NBRTOP).to_a.shuffle.join(' ')"`
-	NBRCOUP=$(./push_swap $ARG | wc -l);
-	TEST=$(./push_swap $ARG | ./checker $ARG);
+	NBRCOUP=$(./Push_swap $ARG | wc -l);
+	TEST=$(./Push_swap $ARG | ./checker $ARG);
 	if [ $TEST == "OK" ]
 		then
 		printf "\033[0;32m▓\033[0;0m"
@@ -47,23 +59,23 @@ do
 		fi;
 
 	if [ $MAX -lt $NBRCOUP ]
-		then
-		MAX=$NBRCOUP;
-		ACTMAX=$ARG;
+		then 
+		MAX=$NBRCOUP; 
+		ACTMAX=$ARG; 
 		fi;
 	if [ $MIN -eq "-1" ];
-		then
-		MIN=$NBRCOUP;
-		ACTMIN=$ARG;
+		then 
+		MIN=$NBRCOUP; 
+		ACTMIN=$ARG; 
 		fi;
 	if [ $NBRCOUP -lt $MIN ]
 		then MIN=$NBRCOUP;
-		ACTMIN=$ARG;
+		ACTMIN=$ARG; 
 		fi;
 	MOY=$(( $MOY + $NBRCOUP ));
 	IND=$(( $IND - 1 ));
 	if [ $NBRCOUP -gt $MED ]
-		then
+		then 
 		((MORE++))
 		else
 		((LESS++))

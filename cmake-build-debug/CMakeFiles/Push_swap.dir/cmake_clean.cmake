@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Push_swap.dir/operations/op_rotate.c.o"
   "CMakeFiles/Push_swap.dir/operations/op_swap.c.o"
   "CMakeFiles/Push_swap.dir/operations/op_utils.c.o"
+  "CMakeFiles/Push_swap.dir/push_swap/conditions.c.o"
+  "CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o"
   "Push_swap.pdb"
   "Push_swap"
 )

@@ -351,6 +351,9 @@
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c">
 			<Option target="Push_swap"/>
 		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/conditions.c">
+			<Option target="Push_swap"/>
+		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/init.c">
 			<Option target="Push_swap"/>
 		</Unit>
@@ -361,6 +364,9 @@
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/print_op.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/sort_utils.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/utils.c">

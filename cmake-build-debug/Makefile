@@ -2161,6 +2161,33 @@ push_swap/algorithm.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.s
 .PHONY : push_swap/algorithm.c.s
 
+push_swap/conditions.o: push_swap/conditions.c.o
+
+.PHONY : push_swap/conditions.o
+
+# target to build an object file
+push_swap/conditions.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/conditions.c.o
+.PHONY : push_swap/conditions.c.o
+
+push_swap/conditions.i: push_swap/conditions.c.i
+
+.PHONY : push_swap/conditions.i
+
+# target to preprocess a source file
+push_swap/conditions.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/conditions.c.i
+.PHONY : push_swap/conditions.c.i
+
+push_swap/conditions.s: push_swap/conditions.c.s
+
+.PHONY : push_swap/conditions.s
+
+# target to generate assembly for a file
+push_swap/conditions.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/conditions.c.s
+.PHONY : push_swap/conditions.c.s
+
 push_swap/init.o: push_swap/init.c.o
 
 .PHONY : push_swap/init.o
@@ -2268,6 +2295,33 @@ push_swap/print_op.s: push_swap/print_op.c.s
 push_swap/print_op.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print_op.c.s
 .PHONY : push_swap/print_op.c.s
+
+push_swap/sort_utils.o: push_swap/sort_utils.c.o
+
+.PHONY : push_swap/sort_utils.o
+
+# target to build an object file
+push_swap/sort_utils.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o
+.PHONY : push_swap/sort_utils.c.o
+
+push_swap/sort_utils.i: push_swap/sort_utils.c.i
+
+.PHONY : push_swap/sort_utils.i
+
+# target to preprocess a source file
+push_swap/sort_utils.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.i
+.PHONY : push_swap/sort_utils.c.i
+
+push_swap/sort_utils.s: push_swap/sort_utils.c.s
+
+.PHONY : push_swap/sort_utils.s
+
+# target to generate assembly for a file
+push_swap/sort_utils.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.s
+.PHONY : push_swap/sort_utils.c.s
 
 push_swap/utils.o: push_swap/utils.c.o
 
@@ -2531,6 +2585,9 @@ help:
 	@echo "... push_swap/algorithm.o"
 	@echo "... push_swap/algorithm.i"
 	@echo "... push_swap/algorithm.s"
+	@echo "... push_swap/conditions.o"
+	@echo "... push_swap/conditions.i"
+	@echo "... push_swap/conditions.s"
 	@echo "... push_swap/init.o"
 	@echo "... push_swap/init.i"
 	@echo "... push_swap/init.s"
@@ -2543,6 +2600,9 @@ help:
 	@echo "... push_swap/print_op.o"
 	@echo "... push_swap/print_op.i"
 	@echo "... push_swap/print_op.s"
+	@echo "... push_swap/sort_utils.o"
+	@echo "... push_swap/sort_utils.i"
+	@echo "... push_swap/sort_utils.s"
 	@echo "... push_swap/utils.o"
 	@echo "... push_swap/utils.i"
 	@echo "... push_swap/utils.s"

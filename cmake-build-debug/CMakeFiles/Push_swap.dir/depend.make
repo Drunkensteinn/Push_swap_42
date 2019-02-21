@@ -46,6 +46,12 @@ CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../operations/op.h
 CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../push_swap.h
 CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../push_swap/algorithm.c
 
+CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../libft/libft.h
+CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../operations.h
+CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../operations/op.h
+CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../push_swap.h
+CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../push_swap/conditions.c
+
 CMakeFiles/Push_swap.dir/push_swap/init.c.o: ../libft/libft.h
 CMakeFiles/Push_swap.dir/push_swap/init.c.o: ../operations.h
 CMakeFiles/Push_swap.dir/push_swap/init.c.o: ../push_swap.h
@@ -65,6 +71,12 @@ CMakeFiles/Push_swap.dir/push_swap/print_op.c.o: ../libft/libft.h
 CMakeFiles/Push_swap.dir/push_swap/print_op.c.o: ../operations.h
 CMakeFiles/Push_swap.dir/push_swap/print_op.c.o: ../push_swap.h
 CMakeFiles/Push_swap.dir/push_swap/print_op.c.o: ../push_swap/print_op.c
+
+CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o: ../libft/libft.h
+CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o: ../operations.h
+CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o: ../operations/op.h
+CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o: ../push_swap.h
+CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o: ../push_swap/sort_utils.c
 
 CMakeFiles/Push_swap.dir/push_swap/utils.c.o: ../libft/libft.h
 CMakeFiles/Push_swap.dir/push_swap/utils.c.o: ../operations.h
