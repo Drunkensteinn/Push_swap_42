@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/10 16:56:12 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/21 21:39:27 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/22 16:39:08 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,13 +82,18 @@ void	working_with_the_understack(t_stack **a, t_stack **b, size_t *len_bot, size
 
 	pushed = 0;
 	pos = 0;
-	if (*len_bot < MIN_STACK_LEN && *len_top < MIN_STACK_LEN)
+	if ((*len_bot < MIN_STACK_LEN && *len_top < MIN_STACK_LEN) && ((*len_bot + *len_top < MIN_STACK_LEN)))
 	{
 		while (*len_bot)
 		{
 			op_rrb(a, b);
 			op_pa(a, b);
 			(*len_bot)--;
+		}
+		while (*len_top)
+		{
+			op_pa(a ,b);
+			(*len_top)--;
 		}
 	}
 	else
@@ -136,7 +141,7 @@ void	working_with_the_understack(t_stack **a, t_stack **b, size_t *len_bot, size
 		}
 	}
 	sort(a, false);
-	if (*len_bot >= MIN_STACK_LEN || *len_top >= MIN_STACK_LEN)
+	if (*len_bot || *len_top)
 		working_with_the_understack(a, b, len_bot, len_top);
 }
 
@@ -170,27 +175,9 @@ void	main_sort_algorithm(t_stack **a, t_stack **b, int32_t *number_of_elems)
 	sort(a, true);
 	if (len_of_bot)
 		working_with_the_understack(a, b, &len_of_bot, &len_of_top);
-	if (len_of_bot < MIN_STACK_LEN || len_of_top < MIN_STACK_LEN)
-		push_top_and_bot(a, b, &len_of_bot, &len_of_top);
 	*number_of_elems = (int32_t)(len_of_bot + len_of_top);
 	if (*number_of_elems > MIN_STACK_LEN)
 		main_sort_algorithm(a, b, number_of_elems);
-}
-
-void	push_top_and_bot(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top)
-{
-	while (*len_bot)
-	{
-		op_rrb(NULL, b);
-		op_pa(a, b);
-		(*len_bot)--;
-	}
-	while (*len_top)
-	{
-		op_pa(a, b);
-		(*len_top)--;
-	}
-	sort(a, true);
 }
 
 void	algorithm(t_stack **a, t_stack **b, int32_t *stack_map, size_t pos)
@@ -213,7 +200,6 @@ void	algorithm_start(t_stack **a, t_stack **b, int32_t *map, size_t len)
 	}
 }
 
-
 void	algorithm_init(t_stack *a, t_stack *b, int32_t argc)
 {
 	int32_t *map;
@@ -224,5 +210,4 @@ void	algorithm_init(t_stack *a, t_stack *b, int32_t argc)
 	pre_sorting(&a, &b, map, argc);
 	sort(&a, true);
 	algorithm_start(&a, &b, map, len_map);
-	print_stack(a, 100);
 }
