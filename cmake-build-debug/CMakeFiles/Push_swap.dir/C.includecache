@@ -38,7 +38,7 @@ libft/libft.h
 operations.h
 /Users/ablizniu/Documents/Push_swap/operations.h
 
-/Users/ablizniu/Documents/Push_swap/push_swap/sort_utils.c
+/Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c
 ../push_swap.h
 /Users/ablizniu/Documents/Push_swap/push_swap.h
 ../operations/op.h

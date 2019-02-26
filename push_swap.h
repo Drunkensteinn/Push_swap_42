@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 17:47:41 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/18 15:11:46 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/26 16:21:49 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,19 +30,26 @@ typedef struct			s_stack
 		struct s_stack	*next;
 }						t_stack;
 
-int32_t					find_mediana_for_block(int32_t *block, int32_t stack_len);
 
-void					sort(t_stack **stack_a, t_bool is_asscending);
+t_stack					*search_elem(t_stack *stack, size_t len);
 
-void					sort_min_stack_len_and_push(t_stack **a, t_stack **b, int32_t *len);
+void					b_bot(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top);
+
+size_t					b_top(t_stack **a, t_stack **b, size_t *len_top, size_t *len_bot);
+
+int32_t					find_mediana_for_block(t_stack *stack, size_t stack_len);
+
+void					sort(t_stack **stack_a);
+
+void					sort_min_stack_len_and_push(t_stack **a, t_stack **b, size_t *len);
 
 void					pushing_by_mediana(t_stack **a, t_stack **b, int32_t mediana,
 						int32_t *elem);
-void	push_top_and_bot(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top);
+void					push_top_and_bot(t_stack **a, t_stack **b, size_t *len_bot, size_t *len_top);
 
-int32_t					*init_array(int32_t len, t_stack *stack);
+int32_t					*init_array(t_stack *stack, size_t len);
 
-int32_t *init_map(size_t len, size_t *len_map);
+int32_t					*init_map(size_t len, size_t *len_map);
 
 void					print_op(const char *op);
 

@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/18 15:05:24 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/18 15:05:24 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/02/25 22:09:27 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,14 +47,18 @@ void		pushing_by_mediana(t_stack **a, t_stack **b, int32_t mediana,
 
 inline t_bool	condition_for_sort(t_stack *stack)
 {
-	t_stack *iterator;
-
-	iterator = stack;
-	while (iterator->next->head != true)
-	{
-		if (iterator->value > iterator->next->value)
-			return (false);
-		iterator = iterator->next;
-	}
+//	t_stack *iterator;
+//
+//	iterator = stack;
+//	while (iterator->next->head != true)
+//	{
+//		if (iterator->value > iterator->next->value)
+//			return (false);
+//		iterator = iterator->next;
+//	}
+	if (stack->value > stack->next->value)
+		return (false);
+	else if (stack->next->value > stack->next->next->value)
+		return (false);
 	return (true);
 }

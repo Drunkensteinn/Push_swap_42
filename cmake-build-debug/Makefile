@@ -2161,6 +2161,33 @@ push_swap/algorithm.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.s
 .PHONY : push_swap/algorithm.c.s
 
+push_swap/b_stack.o: push_swap/b_stack.c.o
+
+.PHONY : push_swap/b_stack.o
+
+# target to build an object file
+push_swap/b_stack.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o
+.PHONY : push_swap/b_stack.c.o
+
+push_swap/b_stack.i: push_swap/b_stack.c.i
+
+.PHONY : push_swap/b_stack.i
+
+# target to preprocess a source file
+push_swap/b_stack.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/b_stack.c.i
+.PHONY : push_swap/b_stack.c.i
+
+push_swap/b_stack.s: push_swap/b_stack.c.s
+
+.PHONY : push_swap/b_stack.s
+
+# target to generate assembly for a file
+push_swap/b_stack.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/b_stack.c.s
+.PHONY : push_swap/b_stack.c.s
+
 push_swap/conditions.o: push_swap/conditions.c.o
 
 .PHONY : push_swap/conditions.o
@@ -2585,6 +2612,9 @@ help:
 	@echo "... push_swap/algorithm.o"
 	@echo "... push_swap/algorithm.i"
 	@echo "... push_swap/algorithm.s"
+	@echo "... push_swap/b_stack.o"
+	@echo "... push_swap/b_stack.i"
+	@echo "... push_swap/b_stack.s"
 	@echo "... push_swap/conditions.o"
 	@echo "... push_swap/conditions.i"
 	@echo "... push_swap/conditions.s"

@@ -24,22 +24,31 @@ static void	rotate(t_stack **stack)
 
 void	op_ra(t_stack **a, t_stack **b)
 {
-	(void)b;
-	rotate(a);
-	print_op(RA);
+	if (a && *a)
+	{
+		(void)b;
+		rotate(a);
+		print_op(RA);
+	}
 }
 
 void	op_rb(t_stack **a, t_stack **b)
 {
-	(void)a;
-	rotate(b);
-	print_op(RB);
+	if (b && *b)
+	{
+		(void)a;
+		rotate(b);
+		print_op(RB);
+	}
 }
 
 void	op_rr(t_stack **a, t_stack **b)
 {
-	rotate(a);
-	rotate(b);
-	print_op(RR);
+	if ((a && *a) && (b && *b))
+	{
+		rotate(a);
+		rotate(b);
+		print_op(RR);
+	}
 }
 

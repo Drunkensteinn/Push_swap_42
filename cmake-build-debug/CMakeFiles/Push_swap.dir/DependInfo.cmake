@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ablizniu/Documents/Push_swap/operations/op_swap.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_swap.c.o"
   "/Users/ablizniu/Documents/Push_swap/operations/op_utils.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_utils.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o"
+  "/Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/conditions.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/conditions.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/init.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/init.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/main.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/main.c.o"

@@ -351,6 +351,9 @@
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c">
 			<Option target="Push_swap"/>
 		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c">
+			<Option target="Push_swap"/>
+		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/conditions.c">
 			<Option target="Push_swap"/>
 		</Unit>

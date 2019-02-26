@@ -46,6 +46,12 @@ CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o
  /Users/ablizniu/Documents/Push_swap/operations/op.h
  /Users/ablizniu/Documents/Push_swap/push_swap.h
  /Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c
+CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o
+ /Users/ablizniu/Documents/Push_swap/libft/libft.h
+ /Users/ablizniu/Documents/Push_swap/operations.h
+ /Users/ablizniu/Documents/Push_swap/operations/op.h
+ /Users/ablizniu/Documents/Push_swap/push_swap.h
+ /Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c
 CMakeFiles/Push_swap.dir/push_swap/conditions.c.o
  /Users/ablizniu/Documents/Push_swap/libft/libft.h
  /Users/ablizniu/Documents/Push_swap/operations.h

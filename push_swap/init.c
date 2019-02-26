@@ -12,7 +12,7 @@
 
 #include "../push_swap.h"
 
-int32_t *init_array(int32_t len, t_stack *stack)
+int32_t *init_array(t_stack *stack, size_t len)
 {
 	int32_t		*array;
 	t_stack		*iterator;
@@ -21,7 +21,7 @@ int32_t *init_array(int32_t len, t_stack *stack)
 	i = 0;
 	iterator = stack;
 	array = (int32_t *)ft_memalloc(sizeof(int32_t) * len);
-	while (i < (size_t)len)
+	while (i < len)
 	{
 		array[i] = iterator->value;
 		iterator = iterator->next;

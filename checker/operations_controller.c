@@ -13,7 +13,7 @@
 #include "../push_swap.h"
 #include "../operations/op.h"
 
-void		*get_func(char *name)
+inline  void		*get_func(char *name)
 {
 	if (ft_strequ(name, SA))
 		return (&op_sa);
