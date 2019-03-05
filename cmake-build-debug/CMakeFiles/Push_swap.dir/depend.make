@@ -6,6 +6,12 @@ CMakeFiles/Push_swap.dir/checker/init.c.o: ../libft/libft.h
 CMakeFiles/Push_swap.dir/checker/init.c.o: ../operations.h
 CMakeFiles/Push_swap.dir/checker/init.c.o: ../push_swap.h
 
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: ../checker/operations_controller.c
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: ../libft/libft.h
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: ../operations.h
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: ../operations/op.h
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: ../push_swap.h
+
 CMakeFiles/Push_swap.dir/checker/stack_controller.c.o: ../checker/stack_controller.c
 CMakeFiles/Push_swap.dir/checker/stack_controller.c.o: ../libft/libft.h
 CMakeFiles/Push_swap.dir/checker/stack_controller.c.o: ../operations.h
@@ -45,12 +51,6 @@ CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../operations.h
 CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../operations/op.h
 CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../push_swap.h
 CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o: ../push_swap/algorithm.c
-
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: ../libft/libft.h
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: ../operations.h
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: ../operations/op.h
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: ../push_swap.h
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: ../push_swap/b_stack.c
 
 CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../libft/libft.h
 CMakeFiles/Push_swap.dir/push_swap/conditions.c.o: ../operations.h

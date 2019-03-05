@@ -163,6 +163,33 @@ checker/init.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/init.c.s
 .PHONY : checker/init.c.s
 
+checker/operations_controller.o: checker/operations_controller.c.o
+
+.PHONY : checker/operations_controller.o
+
+# target to build an object file
+checker/operations_controller.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/operations_controller.c.o
+.PHONY : checker/operations_controller.c.o
+
+checker/operations_controller.i: checker/operations_controller.c.i
+
+.PHONY : checker/operations_controller.i
+
+# target to preprocess a source file
+checker/operations_controller.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/operations_controller.c.i
+.PHONY : checker/operations_controller.c.i
+
+checker/operations_controller.s: checker/operations_controller.c.s
+
+.PHONY : checker/operations_controller.s
+
+# target to generate assembly for a file
+checker/operations_controller.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/operations_controller.c.s
+.PHONY : checker/operations_controller.c.s
+
 checker/stack_controller.o: checker/stack_controller.c.o
 
 .PHONY : checker/stack_controller.o
@@ -2161,33 +2188,6 @@ push_swap/algorithm.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.s
 .PHONY : push_swap/algorithm.c.s
 
-push_swap/b_stack.o: push_swap/b_stack.c.o
-
-.PHONY : push_swap/b_stack.o
-
-# target to build an object file
-push_swap/b_stack.c.o:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o
-.PHONY : push_swap/b_stack.c.o
-
-push_swap/b_stack.i: push_swap/b_stack.c.i
-
-.PHONY : push_swap/b_stack.i
-
-# target to preprocess a source file
-push_swap/b_stack.c.i:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/b_stack.c.i
-.PHONY : push_swap/b_stack.c.i
-
-push_swap/b_stack.s: push_swap/b_stack.c.s
-
-.PHONY : push_swap/b_stack.s
-
-# target to generate assembly for a file
-push_swap/b_stack.c.s:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/b_stack.c.s
-.PHONY : push_swap/b_stack.c.s
-
 push_swap/conditions.o: push_swap/conditions.c.o
 
 .PHONY : push_swap/conditions.o
@@ -2390,6 +2390,9 @@ help:
 	@echo "... checker/init.o"
 	@echo "... checker/init.i"
 	@echo "... checker/init.s"
+	@echo "... checker/operations_controller.o"
+	@echo "... checker/operations_controller.i"
+	@echo "... checker/operations_controller.s"
 	@echo "... checker/stack_controller.o"
 	@echo "... checker/stack_controller.i"
 	@echo "... checker/stack_controller.s"
@@ -2612,9 +2615,6 @@ help:
 	@echo "... push_swap/algorithm.o"
 	@echo "... push_swap/algorithm.i"
 	@echo "... push_swap/algorithm.s"
-	@echo "... push_swap/b_stack.o"
-	@echo "... push_swap/b_stack.i"
-	@echo "... push_swap/b_stack.s"
 	@echo "... push_swap/conditions.o"
 	@echo "... push_swap/conditions.i"
 	@echo "... push_swap/conditions.s"

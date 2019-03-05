@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 19:58:39 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/01/30 16:56:28 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/04 20:56:18 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,20 @@ static void		op_push(t_stack **to, t_stack **from)
 		push(to, pop(from), true);
 }
 
-void	op_pa(t_stack **a, t_stack **b)
+void		op_pa(t_stack **a, t_stack **b, t_command **list)
 {
-	op_push(a, b);
-	print_op(PA);
+	if (a && *a)
+	{
+		op_push(a, b);
+		add_operation(list, PA);
+	}
 }
 
-void	op_pb(t_stack **a, t_stack **b)
+void		op_pb(t_stack **a, t_stack **b, t_command **list)
 {
-	op_push(b, a);
-	print_op(PB);
+	if (a && *a)
+	{
+		op_push(b, a);
+		add_operation(list, PB);
+	}
 }

@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 21:00:34 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/10 22:21:21 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/04 22:12:39 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,5 +66,20 @@ void		push(t_stack **stack, t_stack *elem, t_bool is_head)
 		(*stack)->head = is_head;
 		(*stack)->next = (*stack);
 		(*stack)->prev = (*stack);
+	}
+}
+
+void	add_operation(t_command **list, char *name)
+{
+	t_command *current;
+
+	if (*list)
+	{
+		current = *list;
+		(*list)->command = ft_strdup(name);
+		if (!(*list)->next)
+			(*list)->next = (t_command *)ft_memalloc(sizeof(t_command));
+		(*list) = (*list)->next;
+		(*list)->prev = current;
 	}
 }

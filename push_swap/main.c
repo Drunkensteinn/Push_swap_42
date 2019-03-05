@@ -32,7 +32,7 @@ int main(int32_t argc, char **argv)
 	{
 		if (!array_validation(argc - 1, &argv[1]))
 			print_error();
-		algorithm_init(init_the_stack(argc - 1, &argv[1]), NULL, argc - 1);
+		algorithm_init(init_the_stack(argc - 1, &argv[1]), NULL);
 	}
 	else
 		print_error();

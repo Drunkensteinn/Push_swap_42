@@ -20,5 +20,5 @@ add_executable(Push_swap push_swap/main.c push_swap/init.c push_swap/preparation
         operations/op_reverse_rotate.c
         operations/op_rotate.c
         operations/op_swap.c
-        operations/op_utils.c push_swap/conditions.c push_swap/sort_utils.c push_swap/b_stack.c)
+        operations/op_utils.c push_swap/conditions.c push_swap/sort_utils.c checker/operations_controller.c)
 target_link_libraries(Push_swap ft)

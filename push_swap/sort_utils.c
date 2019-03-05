@@ -6,73 +6,87 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/18 15:12:21 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/24 20:54:37 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/04 20:23:58 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../push_swap.h"
 #include "../operations/op.h"
 
-void	pre_sorting(t_stack **a, t_stack **b, int32_t *map ,int32_t len)
+void pre_sorting(t_stack **a, t_stack **b, int32_t *map, t_command **command)
 {
 	int32_t		mediana;
-	size_t		length;
-	int32_t		elem;
+	size_t		len;
+	size_t 		i;
 
-	elem = 0;
-	mediana = search_mediana(init_array(*a, (size_t)len), (size_t)(len));
-	pushing_by_mediana(a, b, mediana, &elem);
-	length = stack_length(*a);
-	*map = elem;
-	if (length > MIN_STACK_LEN)
-		pre_sorting(a, b, map + 1, (int32_t)length);
-}
-
-int32_t find_mediana_for_block(t_stack *stack, size_t stack_len)
-{
-	int32_t *block;
-	int32_t mediana;
-
-	mediana = 0;
-	block = init_array(stack, stack_len);
-	if (stack_len && stack_len >= MIN_STACK_LEN)
+	i = 0;
+	len = stack_length(*a);
+	while (len > MIN_ELEMS)
 	{
-		quick_sort(block, 0, (int32_t)(stack_len - 1));
-		mediana = block[(int32_t)(stack_len / 2)];
+		mediana = search_mediana(init_array(*a, len), len);
+		map[i] = pushing_by_mediana(a, b, mediana, command);
+		len = stack_length(*a);
+		i++;
 	}
-	else if (stack_len == 2)
-		mediana = (*block > *(block + 1)) ? (*(block + 1)) : (*block);
-	else if (stack_len == 1)
-		mediana = *block;
-	ft_memdel((void *)&block);
-	return (mediana);
+	sort(a, command);
 }
 
-void sort(t_stack **stack_a)
+void	mark(t_stack *stack)
+{
+	t_stack *iterator;
+	size_t	i;
+
+	i = 0;
+	iterator = stack;
+	while (i < MIN_ELEMS)
+	{
+		iterator->mediana = MARKED;
+		iterator = iterator->next;
+		i++;
+	}
+}
+
+size_t	block_len(t_stack *stack)
+{
+	size_t	size;
+	int64_t mediana;
+
+	size = 0;
+	mediana = stack->mediana;
+	if (mediana == UNMARKED)
+		return (0);
+	while (stack->mediana == mediana)
+	{
+		size++;
+		stack = stack->next;
+		if (stack->head)
+			return (size);
+	}
+	return (size);
+}
+
+void sort(t_stack **stack_a, t_command **list)
 {
 	while(!condition_for_sort(*stack_a))
 	{
 		if ((*stack_a)->value > (*stack_a)->next->value)
-			op_sa(stack_a, NULL);
+			op_sa(stack_a, NULL, list);
 		else if ((*stack_a)->next->value > (*stack_a)->next->next->value)
 		{
-			op_ra(stack_a, NULL);
-			op_sa(stack_a, NULL);
-			op_rra(stack_a, NULL);
+			op_ra(stack_a, NULL, list);
+			op_sa(stack_a, NULL, list);
+			op_rra(stack_a, NULL, list);
 		}
 	}
+	mark(*stack_a);
 }
 
-void	sort_min_stack_len_and_push(t_stack **a, t_stack **b, size_t *len)
+void push_and_sort(t_stack **a, t_stack **b, size_t *len, t_command **list)
 {
-	size_t i;
-
-	i = 0;
-	while (*len && i < MIN_STACK_LEN)
+	while (*len)
 	{
-		op_pa(a, b);
+		op_pa(a, b, list);
 		(*len)--;
-		i++;
 	}
-	sort(a);
+	sort(a, list);
 }

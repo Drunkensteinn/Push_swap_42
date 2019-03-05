@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/ablizniu/Documents/Push_swap/checker/init.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/init.c.o"
+  "/Users/ablizniu/Documents/Push_swap/checker/operations_controller.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/operations_controller.c.o"
   "/Users/ablizniu/Documents/Push_swap/checker/stack_controller.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/checker/stack_controller.c.o"
   "/Users/ablizniu/Documents/Push_swap/operations/op_push.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_push.c.o"
   "/Users/ablizniu/Documents/Push_swap/operations/op_reverse_rotate.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_reverse_rotate.c.o"
@@ -12,7 +13,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ablizniu/Documents/Push_swap/operations/op_swap.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_swap.c.o"
   "/Users/ablizniu/Documents/Push_swap/operations/op_utils.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/operations/op_utils.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o"
-  "/Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/conditions.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/conditions.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/init.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/init.c.o"
   "/Users/ablizniu/Documents/Push_swap/push_swap/main.c" "/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles/Push_swap.dir/push_swap/main.c.o"

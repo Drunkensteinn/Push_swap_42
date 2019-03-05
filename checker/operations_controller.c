@@ -6,14 +6,14 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 22:13:06 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/01/30 18:55:52 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/04 20:40:50 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../push_swap.h"
 #include "../operations/op.h"
 
-inline  void		*get_func(char *name)
+static inline  void		*get_func(char *name)
 {
 	if (ft_strequ(name, SA))
 		return (&op_sa);
@@ -50,7 +50,7 @@ void execute_operations(t_stack **stack_a, t_stack **stack_b)
 	while(get_next_line(fd, &op))
 	{
 		if (op && *op)
-			((void (*)(t_stack **, t_stack **))get_func(op))(stack_a, stack_b);
+			((void (*)(t_stack **, t_stack **, t_command *))get_func(op))(stack_a, stack_b, NULL);
 		ft_strdel(&op);
 	}
 }

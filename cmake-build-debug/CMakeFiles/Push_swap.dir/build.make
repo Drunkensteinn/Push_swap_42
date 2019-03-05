@@ -252,18 +252,18 @@ CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Push_swap/push_swap/sort_utils.c -o CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.s
 
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: CMakeFiles/Push_swap.dir/flags.make
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o: ../push_swap/b_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o   -c /Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: CMakeFiles/Push_swap.dir/flags.make
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.o: ../checker/operations_controller.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ablizniu/Documents/Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Push_swap.dir/checker/operations_controller.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Push_swap.dir/checker/operations_controller.c.o   -c /Users/ablizniu/Documents/Push_swap/checker/operations_controller.c
 
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Push_swap.dir/push_swap/b_stack.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c > CMakeFiles/Push_swap.dir/push_swap/b_stack.c.i
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Push_swap.dir/checker/operations_controller.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ablizniu/Documents/Push_swap/checker/operations_controller.c > CMakeFiles/Push_swap.dir/checker/operations_controller.c.i
 
-CMakeFiles/Push_swap.dir/push_swap/b_stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Push_swap.dir/push_swap/b_stack.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Push_swap/push_swap/b_stack.c -o CMakeFiles/Push_swap.dir/push_swap/b_stack.c.s
+CMakeFiles/Push_swap.dir/checker/operations_controller.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Push_swap.dir/checker/operations_controller.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ablizniu/Documents/Push_swap/checker/operations_controller.c -o CMakeFiles/Push_swap.dir/checker/operations_controller.c.s
 
 # Object files for target Push_swap
 Push_swap_OBJECTS = \
@@ -282,7 +282,7 @@ Push_swap_OBJECTS = \
 "CMakeFiles/Push_swap.dir/operations/op_utils.c.o" \
 "CMakeFiles/Push_swap.dir/push_swap/conditions.c.o" \
 "CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o" \
-"CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o"
+"CMakeFiles/Push_swap.dir/checker/operations_controller.c.o"
 
 # External object files for target Push_swap
 Push_swap_EXTERNAL_OBJECTS =
@@ -302,7 +302,7 @@ Push_swap: CMakeFiles/Push_swap.dir/operations/op_swap.c.o
 Push_swap: CMakeFiles/Push_swap.dir/operations/op_utils.c.o
 Push_swap: CMakeFiles/Push_swap.dir/push_swap/conditions.c.o
 Push_swap: CMakeFiles/Push_swap.dir/push_swap/sort_utils.c.o
-Push_swap: CMakeFiles/Push_swap.dir/push_swap/b_stack.c.o
+Push_swap: CMakeFiles/Push_swap.dir/checker/operations_controller.c.o
 Push_swap: CMakeFiles/Push_swap.dir/build.make
 Push_swap: libft.a
 Push_swap: CMakeFiles/Push_swap.dir/link.txt
