@@ -6,35 +6,34 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 23:01:16 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/08 13:00:53 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 16:36:05 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../includes/push_swap.h"
 
-t_bool		array_validation(int32_t len, char **array)
+int main(int32_t argc, const char **argv)
 {
-	size_t i;
+	t_stack		*a;
+	t_command	*command;
+	char		**argument;
+	int32_t		argument_len;
 
-	i = 0;
-	while (i < (size_t)len)
+	argument = (char **)&argv[1];
+	argument_len = argc - 1;
+	if (argument_len >= 1)
 	{
-		if (!ft_isint(array[i], false))
-			return (false);
-		i++;
+		if (argument_len == 1 && (!(argument = validate_single_array(*argument,
+				&argument_len)) || !array_validation(argument_len, argument)))
+			print_error(INVALID_DATAS_ERROR);
+		else
+			if (!array_validation(argument_len, argument))
+				print_error(INVALID_DATAS_ERROR);
+		a = init_the_stack(argument_len, argument);
+		if ((validate_duplication(a)))
+			print_error(DUPLICATION_ERROR);
+		if (!sort_status_check(a))
+			command = algorithm_body(a, NULL);
 	}
-	return (true);
-}
-
-int main(int32_t argc, char **argv)
-{
-	if (argc >= 2)
-	{
-		if (!array_validation(argc - 1, &argv[1]))
-			print_error();
-		algorithm_init(init_the_stack(argc - 1, &argv[1]), NULL);
-	}
-	else
-		print_error();
 	return  (0);
 }

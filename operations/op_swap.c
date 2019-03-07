@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "op.h"
+#include "../includes/op.h"
 
 static void op_swap(t_stack **stack)
 {
@@ -44,5 +44,5 @@ void	op_ss(t_stack **a, t_stack **b, t_command **list)
 {
 	op_swap(a);
 	op_swap(b);
-	print_op(SS);
+	add_operation(list, SS);
 }

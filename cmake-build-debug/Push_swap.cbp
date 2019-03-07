@@ -132,8 +132,14 @@
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/checker/operations_controller.c">
 			<Option target="Push_swap"/>
 		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/checker/sort_check.c">
+			<Option target="Push_swap"/>
+		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/checker/stack_controller.c">
 			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/includes/errors.h">
+			<Option target="ft"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/libft/ft_arrdup.c">
 			<Option target="ft"/>
@@ -351,7 +357,16 @@
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/operations/op_utils.c">
 			<Option target="Push_swap"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm.c">
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm_main.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm_start.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm_start_utils.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/algorithm_utils.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/conditions.c">
@@ -363,16 +378,22 @@
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/main.c">
 			<Option target="Push_swap"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/preparation.c">
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/output_instruction_optimization.c">
 			<Option target="Push_swap"/>
 		</Unit>
-		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/print_op.c">
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/output_instructions_utils.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/print.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/sort_utils.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/utils.c">
+			<Option target="Push_swap"/>
+		</Unit>
+		<Unit filename="/Users/ablizniu/Documents/Push_swap/push_swap/validation.c">
 			<Option target="Push_swap"/>
 		</Unit>
 		<Unit filename="/Users/ablizniu/Documents/Push_swap/CMakeLists.txt">

@@ -6,12 +6,12 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 22:13:06 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/04 20:40:50 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 20:50:01 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
-#include "../operations/op.h"
+#include "../includes/push_swap.h"
+#include "../includes/op.h"
 
 static inline  void		*get_func(char *name)
 {
@@ -38,7 +38,7 @@ static inline  void		*get_func(char *name)
 	else if (ft_strequ(name, RRR))
 		return (&op_rrr);
 	else
-		print_error();
+		print_error(INSTRUCTION_ERROR);
 	return (NULL);
 }
 
@@ -46,8 +46,7 @@ void execute_operations(t_stack **stack_a, t_stack **stack_b)
 {
 	char *op;
 
-	int fd = open("../test.txt", O_RDONLY);
-	while(get_next_line(fd, &op))
+	while(get_next_line(0, &op))
 	{
 		if (op && *op)
 			((void (*)(t_stack **, t_stack **, t_command *))get_func(op))(stack_a, stack_b, NULL);

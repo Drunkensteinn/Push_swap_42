@@ -6,11 +6,11 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 21:41:44 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/04 22:12:39 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 17:40:41 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "op.h"
+#include "../includes/op.h"
 
 static void	rotate(t_stack **stack)
 {
@@ -48,7 +48,7 @@ void	op_rr(t_stack **a, t_stack **b, t_command **list)
 	{
 		rotate(a);
 		rotate(b);
-		print_op(RR);
+		add_operation(list, RR);
 	}
 }
 

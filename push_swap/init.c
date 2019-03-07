@@ -6,11 +6,11 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/01 18:49:45 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/11 20:47:24 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/06 21:24:52 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../includes/push_swap.h"
 
 int32_t *init_array(t_stack *stack, size_t len)
 {
@@ -20,7 +20,8 @@ int32_t *init_array(t_stack *stack, size_t len)
 
 	i = 0;
 	iterator = stack;
-	array = (int32_t *)ft_memalloc(sizeof(int32_t) * len);
+	if (!(array = (int32_t *)ft_memalloc(sizeof(int32_t) * len + 1)))
+		return (NULL);
 	while (i < len)
 	{
 		array[i] = iterator->value;
@@ -30,19 +31,6 @@ int32_t *init_array(t_stack *stack, size_t len)
 	return (array);
 }
 
-static size_t	calculate_len(size_t len)
-{
-	size_t i;
-
-	i = 0;
-	while (len > 1)
-	{
-		len = (len / 2) + (len % 2);
-		i++;
-	}
-	return (i);
-}
-
 int32_t *init_map(size_t len, size_t *len_map)
 {
 	int32_t	*map;
@@ -50,7 +38,7 @@ int32_t *init_map(size_t len, size_t *len_map)
 
 	i = calculate_len(len);
 	*len_map = i;
-	if (!(map = (int32_t *)ft_memalloc(sizeof(int32_t) * i + 1)))
+	if (!(map = (int32_t *)ft_memalloc(sizeof(int32_t) * i)))
 		return (NULL);
 	return (map);
 }

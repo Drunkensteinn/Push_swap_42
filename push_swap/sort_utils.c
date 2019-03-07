@@ -6,12 +6,34 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/18 15:12:21 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/04 20:23:58 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/06 19:17:33 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
-#include "../operations/op.h"
+#include "../includes/push_swap.h"
+#include "../includes/op.h"
+
+t_bool	three_step_sort(t_stack *a, t_command **list)
+{
+	if (stack_length(a) <= MIN_ELEMS)
+	{
+		while (!condition_for_sort(a))
+		{
+			if (a->value > a->prev->value)
+				op_ra(&a, NULL, list);
+			else if (a->value > a->next->value)
+				op_sa(&a, NULL, list);
+			else if (a->next->value > a->next->next->value)
+			{
+				op_ra(&a, NULL, list);
+				op_sa(&a, NULL, list);
+				op_rra(&a, NULL, list);
+			}
+		}
+		return (true);
+	}
+	return (false);
+}
 
 void pre_sorting(t_stack **a, t_stack **b, int32_t *map, t_command **command)
 {
@@ -29,40 +51,6 @@ void pre_sorting(t_stack **a, t_stack **b, int32_t *map, t_command **command)
 		i++;
 	}
 	sort(a, command);
-}
-
-void	mark(t_stack *stack)
-{
-	t_stack *iterator;
-	size_t	i;
-
-	i = 0;
-	iterator = stack;
-	while (i < MIN_ELEMS)
-	{
-		iterator->mediana = MARKED;
-		iterator = iterator->next;
-		i++;
-	}
-}
-
-size_t	block_len(t_stack *stack)
-{
-	size_t	size;
-	int64_t mediana;
-
-	size = 0;
-	mediana = stack->mediana;
-	if (mediana == UNMARKED)
-		return (0);
-	while (stack->mediana == mediana)
-	{
-		size++;
-		stack = stack->next;
-		if (stack->head)
-			return (size);
-	}
-	return (size);
 }
 
 void sort(t_stack **stack_a, t_command **list)

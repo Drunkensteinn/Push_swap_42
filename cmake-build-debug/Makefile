@@ -190,6 +190,33 @@ checker/operations_controller.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/operations_controller.c.s
 .PHONY : checker/operations_controller.c.s
 
+checker/sort_check.o: checker/sort_check.c.o
+
+.PHONY : checker/sort_check.o
+
+# target to build an object file
+checker/sort_check.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/sort_check.c.o
+.PHONY : checker/sort_check.c.o
+
+checker/sort_check.i: checker/sort_check.c.i
+
+.PHONY : checker/sort_check.i
+
+# target to preprocess a source file
+checker/sort_check.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/sort_check.c.i
+.PHONY : checker/sort_check.c.i
+
+checker/sort_check.s: checker/sort_check.c.s
+
+.PHONY : checker/sort_check.s
+
+# target to generate assembly for a file
+checker/sort_check.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/checker/sort_check.c.s
+.PHONY : checker/sort_check.c.s
+
 checker/stack_controller.o: checker/stack_controller.c.o
 
 .PHONY : checker/stack_controller.o
@@ -2161,32 +2188,113 @@ operations/op_utils.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/operations/op_utils.c.s
 .PHONY : operations/op_utils.c.s
 
-push_swap/algorithm.o: push_swap/algorithm.c.o
+push_swap/algorithm_main.o: push_swap/algorithm_main.c.o
 
-.PHONY : push_swap/algorithm.o
+.PHONY : push_swap/algorithm_main.o
 
 # target to build an object file
-push_swap/algorithm.c.o:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.o
-.PHONY : push_swap/algorithm.c.o
+push_swap/algorithm_main.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_main.c.o
+.PHONY : push_swap/algorithm_main.c.o
 
-push_swap/algorithm.i: push_swap/algorithm.c.i
+push_swap/algorithm_main.i: push_swap/algorithm_main.c.i
 
-.PHONY : push_swap/algorithm.i
+.PHONY : push_swap/algorithm_main.i
 
 # target to preprocess a source file
-push_swap/algorithm.c.i:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.i
-.PHONY : push_swap/algorithm.c.i
+push_swap/algorithm_main.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_main.c.i
+.PHONY : push_swap/algorithm_main.c.i
 
-push_swap/algorithm.s: push_swap/algorithm.c.s
+push_swap/algorithm_main.s: push_swap/algorithm_main.c.s
 
-.PHONY : push_swap/algorithm.s
+.PHONY : push_swap/algorithm_main.s
 
 # target to generate assembly for a file
-push_swap/algorithm.c.s:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm.c.s
-.PHONY : push_swap/algorithm.c.s
+push_swap/algorithm_main.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_main.c.s
+.PHONY : push_swap/algorithm_main.c.s
+
+push_swap/algorithm_start.o: push_swap/algorithm_start.c.o
+
+.PHONY : push_swap/algorithm_start.o
+
+# target to build an object file
+push_swap/algorithm_start.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_start.c.o
+.PHONY : push_swap/algorithm_start.c.o
+
+push_swap/algorithm_start.i: push_swap/algorithm_start.c.i
+
+.PHONY : push_swap/algorithm_start.i
+
+# target to preprocess a source file
+push_swap/algorithm_start.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_start.c.i
+.PHONY : push_swap/algorithm_start.c.i
+
+push_swap/algorithm_start.s: push_swap/algorithm_start.c.s
+
+.PHONY : push_swap/algorithm_start.s
+
+# target to generate assembly for a file
+push_swap/algorithm_start.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_start.c.s
+.PHONY : push_swap/algorithm_start.c.s
+
+push_swap/algorithm_start_utils.o: push_swap/algorithm_start_utils.c.o
+
+.PHONY : push_swap/algorithm_start_utils.o
+
+# target to build an object file
+push_swap/algorithm_start_utils.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_start_utils.c.o
+.PHONY : push_swap/algorithm_start_utils.c.o
+
+push_swap/algorithm_start_utils.i: push_swap/algorithm_start_utils.c.i
+
+.PHONY : push_swap/algorithm_start_utils.i
+
+# target to preprocess a source file
+push_swap/algorithm_start_utils.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_start_utils.c.i
+.PHONY : push_swap/algorithm_start_utils.c.i
+
+push_swap/algorithm_start_utils.s: push_swap/algorithm_start_utils.c.s
+
+.PHONY : push_swap/algorithm_start_utils.s
+
+# target to generate assembly for a file
+push_swap/algorithm_start_utils.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_start_utils.c.s
+.PHONY : push_swap/algorithm_start_utils.c.s
+
+push_swap/algorithm_utils.o: push_swap/algorithm_utils.c.o
+
+.PHONY : push_swap/algorithm_utils.o
+
+# target to build an object file
+push_swap/algorithm_utils.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_utils.c.o
+.PHONY : push_swap/algorithm_utils.c.o
+
+push_swap/algorithm_utils.i: push_swap/algorithm_utils.c.i
+
+.PHONY : push_swap/algorithm_utils.i
+
+# target to preprocess a source file
+push_swap/algorithm_utils.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_utils.c.i
+.PHONY : push_swap/algorithm_utils.c.i
+
+push_swap/algorithm_utils.s: push_swap/algorithm_utils.c.s
+
+.PHONY : push_swap/algorithm_utils.s
+
+# target to generate assembly for a file
+push_swap/algorithm_utils.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/algorithm_utils.c.s
+.PHONY : push_swap/algorithm_utils.c.s
 
 push_swap/conditions.o: push_swap/conditions.c.o
 
@@ -2269,59 +2377,86 @@ push_swap/main.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/main.c.s
 .PHONY : push_swap/main.c.s
 
-push_swap/preparation.o: push_swap/preparation.c.o
+push_swap/output_instruction_optimization.o: push_swap/output_instruction_optimization.c.o
 
-.PHONY : push_swap/preparation.o
-
-# target to build an object file
-push_swap/preparation.c.o:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/preparation.c.o
-.PHONY : push_swap/preparation.c.o
-
-push_swap/preparation.i: push_swap/preparation.c.i
-
-.PHONY : push_swap/preparation.i
-
-# target to preprocess a source file
-push_swap/preparation.c.i:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/preparation.c.i
-.PHONY : push_swap/preparation.c.i
-
-push_swap/preparation.s: push_swap/preparation.c.s
-
-.PHONY : push_swap/preparation.s
-
-# target to generate assembly for a file
-push_swap/preparation.c.s:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/preparation.c.s
-.PHONY : push_swap/preparation.c.s
-
-push_swap/print_op.o: push_swap/print_op.c.o
-
-.PHONY : push_swap/print_op.o
+.PHONY : push_swap/output_instruction_optimization.o
 
 # target to build an object file
-push_swap/print_op.c.o:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print_op.c.o
-.PHONY : push_swap/print_op.c.o
+push_swap/output_instruction_optimization.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/output_instruction_optimization.c.o
+.PHONY : push_swap/output_instruction_optimization.c.o
 
-push_swap/print_op.i: push_swap/print_op.c.i
+push_swap/output_instruction_optimization.i: push_swap/output_instruction_optimization.c.i
 
-.PHONY : push_swap/print_op.i
+.PHONY : push_swap/output_instruction_optimization.i
 
 # target to preprocess a source file
-push_swap/print_op.c.i:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print_op.c.i
-.PHONY : push_swap/print_op.c.i
+push_swap/output_instruction_optimization.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/output_instruction_optimization.c.i
+.PHONY : push_swap/output_instruction_optimization.c.i
 
-push_swap/print_op.s: push_swap/print_op.c.s
+push_swap/output_instruction_optimization.s: push_swap/output_instruction_optimization.c.s
 
-.PHONY : push_swap/print_op.s
+.PHONY : push_swap/output_instruction_optimization.s
 
 # target to generate assembly for a file
-push_swap/print_op.c.s:
-	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print_op.c.s
-.PHONY : push_swap/print_op.c.s
+push_swap/output_instruction_optimization.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/output_instruction_optimization.c.s
+.PHONY : push_swap/output_instruction_optimization.c.s
+
+push_swap/output_instructions_utils.o: push_swap/output_instructions_utils.c.o
+
+.PHONY : push_swap/output_instructions_utils.o
+
+# target to build an object file
+push_swap/output_instructions_utils.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/output_instructions_utils.c.o
+.PHONY : push_swap/output_instructions_utils.c.o
+
+push_swap/output_instructions_utils.i: push_swap/output_instructions_utils.c.i
+
+.PHONY : push_swap/output_instructions_utils.i
+
+# target to preprocess a source file
+push_swap/output_instructions_utils.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/output_instructions_utils.c.i
+.PHONY : push_swap/output_instructions_utils.c.i
+
+push_swap/output_instructions_utils.s: push_swap/output_instructions_utils.c.s
+
+.PHONY : push_swap/output_instructions_utils.s
+
+# target to generate assembly for a file
+push_swap/output_instructions_utils.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/output_instructions_utils.c.s
+.PHONY : push_swap/output_instructions_utils.c.s
+
+push_swap/print.o: push_swap/print.c.o
+
+.PHONY : push_swap/print.o
+
+# target to build an object file
+push_swap/print.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print.c.o
+.PHONY : push_swap/print.c.o
+
+push_swap/print.i: push_swap/print.c.i
+
+.PHONY : push_swap/print.i
+
+# target to preprocess a source file
+push_swap/print.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print.c.i
+.PHONY : push_swap/print.c.i
+
+push_swap/print.s: push_swap/print.c.s
+
+.PHONY : push_swap/print.s
+
+# target to generate assembly for a file
+push_swap/print.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/print.c.s
+.PHONY : push_swap/print.c.s
 
 push_swap/sort_utils.o: push_swap/sort_utils.c.o
 
@@ -2377,6 +2512,33 @@ push_swap/utils.c.s:
 	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/utils.c.s
 .PHONY : push_swap/utils.c.s
 
+push_swap/validation.o: push_swap/validation.c.o
+
+.PHONY : push_swap/validation.o
+
+# target to build an object file
+push_swap/validation.c.o:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/validation.c.o
+.PHONY : push_swap/validation.c.o
+
+push_swap/validation.i: push_swap/validation.c.i
+
+.PHONY : push_swap/validation.i
+
+# target to preprocess a source file
+push_swap/validation.c.i:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/validation.c.i
+.PHONY : push_swap/validation.c.i
+
+push_swap/validation.s: push_swap/validation.c.s
+
+.PHONY : push_swap/validation.s
+
+# target to generate assembly for a file
+push_swap/validation.c.s:
+	$(MAKE) -f CMakeFiles/Push_swap.dir/build.make CMakeFiles/Push_swap.dir/push_swap/validation.c.s
+.PHONY : push_swap/validation.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2393,6 +2555,9 @@ help:
 	@echo "... checker/operations_controller.o"
 	@echo "... checker/operations_controller.i"
 	@echo "... checker/operations_controller.s"
+	@echo "... checker/sort_check.o"
+	@echo "... checker/sort_check.i"
+	@echo "... checker/sort_check.s"
 	@echo "... checker/stack_controller.o"
 	@echo "... checker/stack_controller.i"
 	@echo "... checker/stack_controller.s"
@@ -2612,9 +2777,18 @@ help:
 	@echo "... operations/op_utils.o"
 	@echo "... operations/op_utils.i"
 	@echo "... operations/op_utils.s"
-	@echo "... push_swap/algorithm.o"
-	@echo "... push_swap/algorithm.i"
-	@echo "... push_swap/algorithm.s"
+	@echo "... push_swap/algorithm_main.o"
+	@echo "... push_swap/algorithm_main.i"
+	@echo "... push_swap/algorithm_main.s"
+	@echo "... push_swap/algorithm_start.o"
+	@echo "... push_swap/algorithm_start.i"
+	@echo "... push_swap/algorithm_start.s"
+	@echo "... push_swap/algorithm_start_utils.o"
+	@echo "... push_swap/algorithm_start_utils.i"
+	@echo "... push_swap/algorithm_start_utils.s"
+	@echo "... push_swap/algorithm_utils.o"
+	@echo "... push_swap/algorithm_utils.i"
+	@echo "... push_swap/algorithm_utils.s"
 	@echo "... push_swap/conditions.o"
 	@echo "... push_swap/conditions.i"
 	@echo "... push_swap/conditions.s"
@@ -2624,18 +2798,24 @@ help:
 	@echo "... push_swap/main.o"
 	@echo "... push_swap/main.i"
 	@echo "... push_swap/main.s"
-	@echo "... push_swap/preparation.o"
-	@echo "... push_swap/preparation.i"
-	@echo "... push_swap/preparation.s"
-	@echo "... push_swap/print_op.o"
-	@echo "... push_swap/print_op.i"
-	@echo "... push_swap/print_op.s"
+	@echo "... push_swap/output_instruction_optimization.o"
+	@echo "... push_swap/output_instruction_optimization.i"
+	@echo "... push_swap/output_instruction_optimization.s"
+	@echo "... push_swap/output_instructions_utils.o"
+	@echo "... push_swap/output_instructions_utils.i"
+	@echo "... push_swap/output_instructions_utils.s"
+	@echo "... push_swap/print.o"
+	@echo "... push_swap/print.i"
+	@echo "... push_swap/print.s"
 	@echo "... push_swap/sort_utils.o"
 	@echo "... push_swap/sort_utils.i"
 	@echo "... push_swap/sort_utils.s"
 	@echo "... push_swap/utils.o"
 	@echo "... push_swap/utils.i"
 	@echo "... push_swap/utils.s"
+	@echo "... push_swap/validation.o"
+	@echo "... push_swap/validation.i"
+	@echo "... push_swap/validation.s"
 .PHONY : help
 
 

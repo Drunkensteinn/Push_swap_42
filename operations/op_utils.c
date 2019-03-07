@@ -6,27 +6,11 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 21:00:34 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/04 22:12:39 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 15:02:09 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
-
-inline size_t	stack_length(t_stack *stack)
-{
-	t_stack	*iterator;
-	size_t	len;
-
-	len = 0;
-	iterator = stack;
-	iterator = iterator->next;
-	while (iterator->head != true)
-	{
-		iterator = iterator->next;
-		len++;
-	}
-	return (len + 1);
-}
+#include "../includes/push_swap.h"
 
 t_stack		*pop(t_stack **stack)
 {
@@ -73,7 +57,7 @@ void	add_operation(t_command **list, char *name)
 {
 	t_command *current;
 
-	if (*list)
+	if (list && *list)
 	{
 		current = *list;
 		(*list)->command = ft_strdup(name);

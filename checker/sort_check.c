@@ -6,11 +6,11 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 22:13:37 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/01/30 18:29:28 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 16:30:29 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../includes/push_swap.h"
 
 t_bool		sort_status_check(t_stack *stack)
 {
@@ -27,6 +27,6 @@ t_bool		sort_status_check(t_stack *stack)
 		}
 	}
 	else
-		print_error();
+		print_error(INVALID_DATAS_ERROR);
 	return (true);
 }

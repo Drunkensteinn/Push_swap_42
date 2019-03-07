@@ -6,11 +6,11 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 20:14:45 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/01/27 22:06:20 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 16:30:29 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../includes/push_swap.h"
 
 void			create_new_elem(t_stack **lst, t_stack *prev, int32_t elem)
 {
@@ -31,7 +31,7 @@ inline void		check_created_elem(t_stack **stack, t_stack *prev,
 		if (ft_isint(data[index], true))
 			create_new_elem(stack, prev, ft_atoi(data[index]));
 		else
-			print_error();
+			print_error(INVALID_DATAS_ERROR);
 	}
 	else
 		create_new_elem(stack, prev, 0);

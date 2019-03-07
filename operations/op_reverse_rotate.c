@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "op.h"
+#include "../includes/op.h"
 
 void	reverse_rotate(t_stack **stack)
 {
@@ -25,20 +25,29 @@ void	reverse_rotate(t_stack **stack)
 void op_rra(t_stack **a, t_stack **b, t_command **list)
 {
 	(void)b;
-	reverse_rotate(a);
-	add_operation(list, RRA);
+	if (a && *a)
+	{
+		reverse_rotate(a);
+		add_operation(list, RRA);
+	}
 }
 
 void op_rrb(t_stack **a, t_stack **b, t_command **list)
 {
 	(void)a;
-	reverse_rotate(b);
-	add_operation(list, RRB);
+	if (b && *b)
+	{
+		reverse_rotate(b);
+		add_operation(list, RRB);
+	}
 }
 
 void	op_rrr(t_stack **a, t_stack **b, t_command **list)
 {
-	reverse_rotate(a);
-	reverse_rotate(b);
-	print_op(RRR);
+	if ((a && *a) && (b && *b))
+	{
+		reverse_rotate(a);
+		reverse_rotate(b);
+		add_operation(list, RRR);
+	}
 }

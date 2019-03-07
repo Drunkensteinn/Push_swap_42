@@ -6,12 +6,33 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/18 15:05:24 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/04 20:23:58 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/06 19:18:16 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
-#include "../operations/op.h"
+#include "../includes/push_swap.h"
+#include "../includes/op.h"
+
+
+t_bool	_b_condition(t_stack **b, size_t under, size_t buff)
+{
+	if ((buff / 2 == stack_length(*b)) && !is_push(search_elem(*b, under),
+			search_elem(*b, under)->mediana, &under, true))
+		return (true);
+	else if (buff == under && !is_push(search_elem(*b, under),
+			search_elem(*b, under)->mediana, &under, true))
+		return (true);
+	else if (under == stack_length(*b) && !is_push(search_elem(*b, under),
+			search_elem(*b, under)->mediana, &under, true))
+		return (true);
+	else if (under == stack_length(*b) - 1 && !is_push(search_elem(*b, under),
+			search_elem(*b, under)->mediana, &under, true))
+		return (true);
+	else if (under > stack_length(*b) / 2 && !is_push(search_elem(*b, under),
+			search_elem(*b, under)->mediana, &under, true))
+		return (true);
+	return (false);
+}
 
 inline t_bool	condition_for_push(t_stack *stack, int32_t value)
 {

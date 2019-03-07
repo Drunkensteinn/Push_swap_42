@@ -1,37 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_op.c                                         :+:      :+:    :+:   */
+/*   print.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/03 15:10:29 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/02/03 21:57:11 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 20:43:41 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../includes/push_swap.h"
 
 void	print_op(const char *op)
 {
 	ft_putendl(op);
 }
 
-void	print_error(void)
+void print_error(const char *error)
 {
-	ft_putstr("you have insert a shit!\n");
+	ft_putendl(error);
 	exit(0);
 }
 
-void		print_array(int32_t *array, size_t	len)
+void	print_status(t_stack *a)
 {
-	size_t i = 0;
-
-	while (i < len)
-	{
-		ft_putnbr(array[i]);
-		ft_putchar(' ');
-		i++;
-	}
-	ft_putchar('\n');
+	if (sort_status_check(a))
+		ft_putendl("OK");
+	else
+		ft_putendl("KO");
 }

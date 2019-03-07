@@ -13,7 +13,7 @@
 #ifndef OP_H
 #define OP_H
 
-#include "../push_swap.h"
+#include "push_swap.h"
 
 void		op_sa(t_stack **a, t_stack **b, t_command **list);
 

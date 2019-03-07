@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "op.h"
+#include "../includes/op.h"
 
 static void		op_push(t_stack **to, t_stack **from)
 {
