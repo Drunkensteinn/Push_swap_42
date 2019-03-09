@@ -12,9 +12,9 @@
 
 #include "../includes/push_swap.h"
 
-t_stack		*pop(t_stack **stack)
+t_stack			*pop(t_stack **stack)
 {
-	t_stack *head;
+	t_stack		*head;
 
 	head = *stack;
 	(*stack)->head = false;
@@ -29,9 +29,9 @@ t_stack		*pop(t_stack **stack)
 	return (head);
 }
 
-void		push(t_stack **stack, t_stack *elem, t_bool is_head)
+void			push(t_stack **stack, t_stack *elem, t_bool is_head)
 {
-	t_stack *head;
+	t_stack		*head;
 
 	head = (*stack);
 	if (head && elem)
@@ -53,9 +53,9 @@ void		push(t_stack **stack, t_stack *elem, t_bool is_head)
 	}
 }
 
-void	add_operation(t_command **list, char *name)
+void			add_operation(t_command **list, char *name)
 {
-	t_command *current;
+	t_command	*current;
 
 	if (list && *list)
 	{

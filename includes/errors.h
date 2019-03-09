@@ -11,12 +11,12 @@
 /* ************************************************************************** */
 
 #ifndef ERRORS_H
-#define ERRORS_H
+# define ERRORS_H
 
-#define INVALID_DATAS_ERROR "Error. Invalid datas."
+# define INVALID_DATAS_ERROR "Error. Invalid datas."
 
-#define DUPLICATION_ERROR "Error. Duplicated values."
+# define DUPLICATION_ERROR "Error. Duplicated values."
 
-#define INSTRUCTION_ERROR "Error. Invalid instruction."
+# define INSTRUCTION_ERROR "Error. Invalid instruction."
 
 #endif

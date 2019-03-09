@@ -124,7 +124,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Push_swap
+CMAKE_PROJECT_NAME:STATIC=src/push_swap
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -193,6 +193,12 @@ Push_swap_BINARY_DIR:STATIC=/Users/ablizniu/Documents/Push_swap/cmake-build-debu
 
 //Value Computed by CMake
 Push_swap_SOURCE_DIR:STATIC=/Users/ablizniu/Documents/Push_swap
+
+//Value Computed by CMake
+src/push_swap_BINARY_DIR:STATIC=/Users/ablizniu/Documents/Push_swap/cmake-build-debug
+
+//Value Computed by CMake
+src/push_swap_SOURCE_DIR:STATIC=/Users/ablizniu/Documents/Push_swap
 
 
 ########################

@@ -6,13 +6,13 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/25 20:49:33 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/01/25 20:52:53 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/09 16:13:43 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_bool	ft_isint(const char *str, t_bool strict)
+t_bool				ft_isint(const char *str, t_bool strict)
 {
 	unsigned int	result;
 	unsigned int	border;
@@ -32,7 +32,7 @@ t_bool	ft_isint(const char *str, t_bool strict)
 	while (ft_isdigit(str[i]) && ++digits)
 	{
 		if (((result > border || (result == border && (str[i] - '0') > 7))
-			 && sign == 1)
+				&& sign == 1)
 			|| ((result > border || (result == border && (str[i] - '0') > 8))
 				&& sign == -1))
 			return (false);

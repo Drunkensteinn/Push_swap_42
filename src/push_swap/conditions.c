@@ -6,15 +6,14 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/18 15:05:24 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/07 21:59:06 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 22:16:29 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/push_swap.h"
 #include "../includes/op.h"
 
-
-t_bool	_b_condition(t_stack **b, size_t under, size_t buff)
+t_bool			b_condition(t_stack **b, size_t under, size_t buff)
 {
 	if ((buff / 2 == stack_length(*b)) && !is_push(search_elem(*b, under),
 			search_elem(*b, under)->mediana, &under, true))
@@ -36,7 +35,7 @@ t_bool	_b_condition(t_stack **b, size_t under, size_t buff)
 
 inline t_bool	condition_for_push(t_stack *stack, int32_t value)
 {
-	t_stack *iterator;
+	t_stack		*iterator;
 
 	iterator = stack;
 	iterator = iterator->next;
@@ -51,10 +50,10 @@ inline t_bool	condition_for_push(t_stack *stack, int32_t value)
 	return (true);
 }
 
-int32_t pushing_by_mediana(t_stack **a, t_stack **b, int32_t mediana,
-						   t_command **list)
+int32_t			pushing_by_mediana(t_stack **a, t_stack **b, int32_t mediana,
+				t_command **list)
 {
-	int32_t elem;
+	int32_t		elem;
 
 	elem = 0;
 	while (!(condition_for_push(*a, mediana)))

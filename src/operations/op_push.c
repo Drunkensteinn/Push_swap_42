@@ -18,7 +18,7 @@ static void		op_push(t_stack **to, t_stack **from)
 		push(to, pop(from), true);
 }
 
-void		op_pa(t_stack **a, t_stack **b, t_command **list)
+void			op_pa(t_stack **a, t_stack **b, t_command **list)
 {
 	if (a && *a)
 	{
@@ -27,7 +27,7 @@ void		op_pa(t_stack **a, t_stack **b, t_command **list)
 	}
 }
 
-void		op_pb(t_stack **a, t_stack **b, t_command **list)
+void			op_pb(t_stack **a, t_stack **b, t_command **list)
 {
 	if (a && *a)
 	{

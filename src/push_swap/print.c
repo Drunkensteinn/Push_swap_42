@@ -6,7 +6,7 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/03 15:10:29 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/07 21:59:06 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 22:01:49 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	print_op(const char *op)
 	ft_putendl(op);
 }
 
-void print_error(const char *error)
+void	print_error(const char *error)
 {
 	ft_putendl(error);
 	exit(0);

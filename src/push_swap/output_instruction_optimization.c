@@ -6,14 +6,14 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:34:15 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/07 22:00:08 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 22:01:49 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/push_swap.h"
 #include "../includes/op.h"
 
-t_bool	permanent_replacemant_second_part(t_command **iterator)
+const t_bool		permanent_replacemant_second_part(t_command **iterator)
 {
 	if (ft_strequ((*iterator)->command, PB) &&
 		ft_strequ((*iterator)->next->command, PA))
@@ -40,7 +40,7 @@ t_bool	permanent_replacemant_second_part(t_command **iterator)
 	return (false);
 }
 
-t_bool	permanent_replacemant_first_part(t_command **iterator)
+const t_bool		permanent_replacemant_first_part(t_command **iterator)
 {
 	if (ft_strequ((*iterator)->command, SA) &&
 	ft_strequ((*iterator)->next->command, SA))
@@ -63,7 +63,7 @@ t_bool	permanent_replacemant_first_part(t_command **iterator)
 	return (false);
 }
 
-t_bool	permanent_replacemant_add(t_command **iterator)
+const t_bool		permanent_replacemant_add(t_command **iterator)
 {
 	if ((ft_strequ((*iterator)->command, RA) &&
 	ft_strequ((*iterator)->next->command, RB)) ||
@@ -92,9 +92,9 @@ t_bool	permanent_replacemant_add(t_command **iterator)
 	return (false);
 }
 
-void	optimize_commands(t_command *lst)
+void				optimize_commands(t_command *lst)
 {
-	t_command *iterator;
+	t_command		*iterator;
 
 	iterator = lst;
 	while (iterator && (iterator)->next)

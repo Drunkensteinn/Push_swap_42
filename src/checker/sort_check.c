@@ -14,7 +14,7 @@
 
 t_bool		sort_status_check(t_stack *stack)
 {
-	t_stack *iterator;
+	t_stack	*iterator;
 
 	iterator = stack;
 	if (stack)

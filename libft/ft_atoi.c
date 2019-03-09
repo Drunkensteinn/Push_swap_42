@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static size_t			warning(char const *str, size_t i, int *point)
+static size_t		warning(char const *str, size_t i, int *point)
 {
 	while (str[i] == '\n' || str[i] == '\t' ||
 	str[i] == '\r' || str[i] == '\v' || str[i] == '\f' || str[i] == ' ')

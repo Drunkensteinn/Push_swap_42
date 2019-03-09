@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #ifndef OPERATIONS_H
-#define OPERATIONS_H
+# define OPERATIONS_H
 
 # define SA "sa"
 

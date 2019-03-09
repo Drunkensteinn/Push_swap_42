@@ -6,15 +6,15 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 17:55:40 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/07 21:59:06 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 22:01:49 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/push_swap.h"
 #include "../includes/op.h"
 
-t_command *algorithm_start(t_stack **a, t_stack **b, const int32_t *map,
-							size_t len)
+t_command		*algorithm_start(t_stack **a, t_stack **b, const int32_t *map,
+				size_t len)
 {
 	t_command	*head;
 	size_t		elem;
@@ -30,7 +30,7 @@ t_command *algorithm_start(t_stack **a, t_stack **b, const int32_t *map,
 	return (head);
 }
 
-t_command *algorithm_body(t_stack *a, t_stack *b)
+t_command		*algorithm_body(t_stack *a, t_stack *b)
 {
 	t_command	*command_head;
 	t_command	*command_body;
@@ -52,5 +52,4 @@ t_command *algorithm_body(t_stack *a, t_stack *b)
 	command_head = cmd_lstcat(&command_body, command_head);
 	output_commands(command_head);
 	return (command_head);
-
 }

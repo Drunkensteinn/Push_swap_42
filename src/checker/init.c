@@ -12,7 +12,7 @@
 
 #include "../includes/push_swap.h"
 
-t_stack *init_elem(void)
+t_stack			*init_elem(void)
 {
 	t_stack		*stack;
 

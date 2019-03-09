@@ -1,21 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_algorithm.c                                   :+:      :+:    :+:   */
+/*   algorithm_main.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 18:48:37 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/06 19:19:38 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 22:23:10 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/push_swap.h"
 #include "../includes/op.h"
 
-static void _a_push_bot_and_to_top(t_stack **a, t_stack **b, size_t *len, t_command **list)
+const void		a_push_bot_and_to_top(t_stack **a,
+				t_stack **b, size_t *len, t_command **list)
 {
-	size_t under;
+	size_t		under;
 
 	under = 0;
 	while (is_push(*a, (*a)->mediana, len, false))
@@ -37,10 +38,11 @@ static void _a_push_bot_and_to_top(t_stack **a, t_stack **b, size_t *len, t_comm
 	}
 }
 
-static void _b_push_bot_and_to_top(t_stack **a, t_stack **b, size_t *len, t_command **list)
+const void		b_push_bot_and_to_top(t_stack **a,
+				t_stack **b, size_t *len, t_command **list)
 {
-	size_t under;
-	size_t buff;
+	size_t		under;
+	size_t		buff;
 
 	under = 0;
 	buff = *len;
@@ -57,7 +59,7 @@ static void _b_push_bot_and_to_top(t_stack **a, t_stack **b, size_t *len, t_comm
 	}
 	*len = under;
 	if (*b)
-		if (_b_condition(b, under, buff))
+		if (b_condition(b, under, buff))
 			return ;
 	while (*b && under)
 	{
@@ -66,22 +68,22 @@ static void _b_push_bot_and_to_top(t_stack **a, t_stack **b, size_t *len, t_comm
 	}
 }
 
-static void solution_a(t_stack **a, t_stack **b, t_command **list)
+const void		solution_a(t_stack **a, t_stack **b, t_command **list)
 {
-	size_t len;
+	size_t		len;
 
-	len = block_len(*a);;
+	len = block_len(*a);
 	while (len > MIN_ELEMS)
 	{
 		write_in_mediana(*a, len, search_mediana(init_array(*a, len), len));
-		_a_push_bot_and_to_top(a, b, &len, list);
+		a_push_bot_and_to_top(a, b, &len, list);
 		len = block_len(*a);
 	}
 	sort(a, list);
 }
 
-void main_sort_algorithm(t_stack **a, t_stack **b, size_t *elems_in_b,
-						 t_command **list)
+void			main_sort_algorithm(t_stack **a, t_stack **b,
+				size_t *elems_in_b, t_command **list)
 {
 	if (*b && *elems_in_b <= MIN_ELEMS)
 		push_and_sort(a, b, elems_in_b, list);
@@ -89,8 +91,9 @@ void main_sort_algorithm(t_stack **a, t_stack **b, size_t *elems_in_b,
 	{
 		if (*elems_in_b)
 		{
-			write_in_mediana(*b, *elems_in_b, search_mediana(init_array(*b, *elems_in_b), *elems_in_b));
-			_b_push_bot_and_to_top(a, b, elems_in_b, list);
+			write_in_mediana(*b, *elems_in_b, search_mediana(init_array(*b,
+					*elems_in_b), *elems_in_b));
+			b_push_bot_and_to_top(a, b, elems_in_b, list);
 			solution_a(a, b, list);
 		}
 	}

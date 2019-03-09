@@ -17,7 +17,7 @@ void			create_new_elem(t_stack **lst, t_stack *prev, int32_t elem)
 	if (!*lst)
 	{
 		if (!(*lst = (t_stack *)ft_memalloc(sizeof(t_stack))))
-			return;
+			return ;
 	}
 	(*lst)->value = elem;
 	(*lst)->prev = prev;
@@ -56,5 +56,5 @@ t_stack			*init_the_stack(int32_t num, char **value)
 	temp->next = stack;
 	stack->prev = temp;
 	stack->head = true;
-	return  (stack);
+	return (stack);
 }

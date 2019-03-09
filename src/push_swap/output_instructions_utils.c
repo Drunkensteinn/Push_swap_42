@@ -6,22 +6,22 @@
 /*   By: ablizniu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/06 19:32:03 by ablizniu          #+#    #+#             */
-/*   Updated: 2019/03/07 22:00:05 by ablizniu         ###   ########.fr       */
+/*   Updated: 2019/03/07 22:26:10 by ablizniu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/push_swap.h"
 
-t_command	*iterate(t_command *lst)
+t_command		*iterate(t_command *lst)
 {
 	while (lst && lst->prev)
 		lst = lst->prev;
 	return (lst);
 }
 
-void	output_commands(t_command *lst)
+void			output_commands(t_command *lst)
 {
-	t_command *iterator;
+	t_command	*iterator;
 
 	iterator = lst;
 	while (iterator)
@@ -32,9 +32,9 @@ void	output_commands(t_command *lst)
 	}
 }
 
-t_command	*cmd_lstcat(t_command **from, t_command *to)
+t_command		*cmd_lstcat(t_command **from, t_command *to)
 {
-	t_command *tmp;
+	t_command	*tmp;
 
 	if (to)
 	{
@@ -52,9 +52,9 @@ t_command	*cmd_lstcat(t_command **from, t_command *to)
 	return (to);
 }
 
-t_command	*remove_and_add(t_command *l1, t_command *l2, char *name)
+t_command		*remove_and_add(t_command *l1, t_command *l2, char *name)
 {
-	t_command *tmp1;
+	t_command	*tmp1;
 
 	tmp1 = l2;
 	l1->next = l2->next;
@@ -65,10 +65,10 @@ t_command	*remove_and_add(t_command *l1, t_command *l2, char *name)
 	return (l1);
 }
 
-t_command	*remove_permanently(t_command *iterator)
+t_command		*remove_permanently(t_command *iterator)
 {
-	t_command *temp1;
-	t_command *temp2;
+	t_command	*temp1;
+	t_command	*temp2;
 
 	temp1 = (iterator);
 	temp2 = (iterator)->next;
